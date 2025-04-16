@@ -1,6 +1,8 @@
 import { Btn } from "@/components/Btn";
+import { CardCategoryProjects } from "@/components/CardCategoryProjects";
 import { CardProyect } from "@/components/CardProyect";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -13,7 +15,15 @@ export default function Home() {
 
      <section className="flex gap-10">
       {/* esto seria la section de los tipos de proyecto */}
+
+      <Link href={"/projects/hci"}>
       
+        <CardCategoryProjects title="HUMAN-COMPUTER INTERACTION" imageUrl="/projects/human-computer-interaction/HCI.png"/>
+      </Link>
+      <Link href={"/projects/textile"}>
+      
+        <CardCategoryProjects title="HUMAN-COMPUTER INTERACTION" imageUrl="/projects/human-computer-interaction/HCI.png"/>
+      </Link>
      </section>
   
     </main>

@@ -33,7 +33,7 @@ export const Navbar = () => {
         <div className="flex items-center h-16 justify-between">
           <div className="hidden md:flex items-center gap-20 md:text-2xl">
             <Link href="/" className={linkClasses('/')}>WORK</Link>
-            <Link href="/projects" className={linkClasses('/projects')}>HIC PROJECTS</Link>
+            <Link href="/projects/hci" className={linkClasses('/projects/hci')}>HIC PROJECTS</Link>
             <Link href="/about" className={linkClasses('/about')}>TEXTILE PROJECT</Link>
             <Link href="/contact-me" className={linkClasses('/contact-me')}>CONTACT</Link>
             <a className="font-normal">
@@ -54,7 +54,7 @@ export const Navbar = () => {
           <div className="md:hidden pb-4">
             <div className="flex flex-col space-y-2 text-xl">
               <Link href="/" className={linkClasses('/')}>WORK</Link>
-              <Link href="/projects" className={linkClasses('/projects')}>HIC PROJECTS</Link>
+              <Link href="/projects/hci" className={linkClasses('/projects/hci')}>HIC PROJECTS</Link>
               <Link href="/about" className={linkClasses('/about')}>TEXTILE PROJECT</Link>
               <Link href="/contact-me" className={linkClasses('/contact-me')}>CONTACT</Link>
               <a className="font-normal">
