@@ -13,11 +13,11 @@
   
 export interface Project{
   id: string
+  slug: string
   title: string
-  description: string
-  image: string
-  slug?: string // si quieres tener rutas dinámicas tipo /projects/hci-project-1
-  category: 'HCI' | 'Textile' | 'Commisioned'
+  subTittle?: string
+  banner: string
+  introduction: string
 }
 
 export interface ProjectsSectionProps {

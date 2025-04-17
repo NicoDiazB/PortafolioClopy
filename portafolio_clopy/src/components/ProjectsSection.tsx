@@ -15,8 +15,8 @@ export const ProjectsSection: React.FC<ProjectsSectionProps> = ({sectionTitle, s
     <div className="grid gap-8 grid-cols-2 md:grid-cols-3 ">
       {projects.map((proj, index) => (
         // map para los poryectos
-        <Link href={`/projects/${proj.title.toLowerCase().replace(/ /g, "-")}`} key={index}>
-        <CardProyect key={index} title={proj.title} imageUrl={proj.image} />
+        <Link href={`/projects/hci/${proj.slug.toLowerCase().replace(/ /g, "-")}`} key={index}>
+        <CardProyect key={index} title={proj.title} imageUrl={proj.banner} />
         </Link>
       ))}
     </div>
