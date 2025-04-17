@@ -9,15 +9,21 @@
   export interface CardProyectProps {
     title: string
     imageUrl: string
+    date: string
   }
   
 export interface Project{
   id: string
+  date: string
   slug: string
   title: string
   subTittle?: string
   banner: string
+  cover?: string
   introduction: string
+  information?: string
+  video?: string
+  gallery?: string[]
 }
 
 export interface ProjectsSectionProps {

@@ -16,7 +16,7 @@ export const ProjectsSection: React.FC<ProjectsSectionProps> = ({sectionTitle, s
       {projects.map((proj, index) => (
         // map para los poryectos
         <Link href={`/projects/hci/${proj.slug.toLowerCase().replace(/ /g, "-")}`} key={index}>
-        <CardProyect key={index} title={proj.title} imageUrl={proj.banner} />
+        <CardProyect key={index} title={proj.title} imageUrl={proj.cover? proj.cover : proj.banner} date={proj.date} />
         </Link>
       ))}
     </div>

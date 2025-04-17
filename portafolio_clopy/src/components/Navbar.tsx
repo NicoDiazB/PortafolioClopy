@@ -28,7 +28,7 @@ export const Navbar = () => {
     `${isActive(href) ? 'font-bold' : 'font-normal'} transition-all duration-150`
 
   return (
-    <nav className={`fixed flex items-center w-full px-8 bg-opacity-90 z-50 md:h-24 md:px-24 transition-transform duration-300 ${visible ? 'translate-y-0' : '-translate-y-full'}`}>
+    <nav className={`backdrop-blur-lg fixed flex items-center w-full px-8 bg-opacity-90 z-50 md:h-24 md:px-24 transition-transform duration-300 ${visible ? 'translate-y-0' : '-translate-y-full'}`}>
       <div className="w-full items-center">
         <div className="flex items-center h-16 justify-between">
           <div className="hidden md:flex items-center gap-20 md:text-2xl">
