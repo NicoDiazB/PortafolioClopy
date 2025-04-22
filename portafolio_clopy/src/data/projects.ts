@@ -97,6 +97,24 @@ export const projects: Project[] =[
         This project showcases the potential of textiles as a medium for memory exploration and highlights the innovative ways technology can bridge the gap between past and present.`,
         
       },
+      {
+        id: '6',
+        date: "2020",
+        slug: "power-a",
+        title: 'Power-A For Gourmet',
+        subTittle:"A speculative design project on alternative food source",
+        banner: {url:'/projects/human-computer-interaction/power-a/banner-powerA.webp', subtitle:"edited by @succo_julian"},
+        cover: "/projects/human-computer-interaction/power-a/cover-powerA.webp",
+        introduction: `My role in this project, part of the Estonian Academy of Arts' experimental materials subject, involved researching algae and its potential applications. Specifically, I focused on finding new uses for Baltic Sea algae. This research included a literature overview, data collection, and algae collection. While we aimed to prototype an algae-based product based on our findings, due to COVID-19 restrictions, the outcome remained entirely digital. The project also participated in the 2020 Bio-Design Challenge.<br /><br /> The project's inspiration stemmed from the changing relationship between humans and food. We investigated how food technology has influenced our development and envisioned a future where food serves primarily for pleasure, with essential nutrition coming from alternative sources.`,
+        imageInformation:"/projects/human-computer-interaction/power-a/image-powerA.webp",
+        information: `The research focused on symbiotic relationships in nature, particularly lichens, which combine fungus and algae for survival. This exploration led us to consider whether algae could provide nutrients directly through human skin. Jewellery was considered a potential platform for delivering these nutrients in the future.<br /><br />
+
+        The project's vision is to develop an algae-based transdermal patch that delivers essential nutrients, freeing humans from the routine of eating for basic needs. This approach could also contribute to reducing food waste and environmental impact.<br /><br />
+        Overall, the project explored the potential of algae as a future food source and applied bio-design principles in product development. Through my role, I gained valuable experience in research and speculative design.
+        `,
+        gallery:[{imageUrl:"/projects/human-computer-interaction/power-a/galery-powerA.webp"},{imageUrl:"/projects/human-computer-interaction/power-a/galery-powerA2.webp"},]
+        
+      },
 
 
 ]

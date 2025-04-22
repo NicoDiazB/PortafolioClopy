@@ -45,7 +45,7 @@ export default function GalleryModal({ gallery }: Props) {
 
       {isModalOpen && selectedImage && (
         <div className="fixed inset-0 backdrop-blur-2xl bg-opacity-50 flex items-center justify-center z-50">
-          <div className="bg-white p-6 rounded shadow-lg max-w-3xl w-full">
+          <div className=" p-6 rounded shadow-lg max-w-2xl w-full ">
             <Btn
               onClick={closeModal}
               className="absolute top-5 right-5  px-4"

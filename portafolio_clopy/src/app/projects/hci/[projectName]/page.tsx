@@ -33,10 +33,16 @@ export default async function ProjectDetailPage({ params }: Props) {
         <img src={project.banner.url} alt={project.title} className=" max-h-[800px] rounded-xl" />
         <p className='text-lg text-center mb-6 text-gray-700'>{project.banner.subtitle}</p>
         </div>
-       
         <p className="mb-6 text-lg" dangerouslySetInnerHTML={{ __html: project.introduction }}/>
-        
-        {/* aquí seguís renderizando lo demás del proyecto: información, galería, etc */}
+      
+
+        {/* render de imagen */}
+        {project.imageInformation && (
+          <div className="mb-6 w-full max-w-3xl ">
+            <img loading='lazy' className='rounded-xl' src={`${project.imageInformation}`} alt={`${project.title}`} />
+          </div>
+        )}
+        {/* redner de video */}
         {project.video && (
           <div className="mb-6 w-full max-w-3xl">
             <iframe

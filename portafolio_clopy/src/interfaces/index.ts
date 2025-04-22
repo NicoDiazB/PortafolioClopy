@@ -33,6 +33,7 @@ export interface Project{
   cover?: string
   introduction: string
   information?: string
+  imageInformation?: string
   video?: string
   gallery?: Gallery[]
 }
