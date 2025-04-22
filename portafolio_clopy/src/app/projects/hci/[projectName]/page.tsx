@@ -28,7 +28,10 @@ export default async function ProjectDetailPage({ params }: Props) {
         <section className='flex flex-col items-center '>
         <h1 className="text-4xl font-bold ">{project.title}</h1>
         <h3 className='text-xl text-gray-700 mb-4'>{project.subTittle}</h3>
-        <img src={project.banner} alt={project.title} className="mb-6 max-h-[800px] rounded-xl" />
+        <div>
+        <img src={project.banner.url} alt={project.title} className=" max-h-[800px] rounded-xl" />
+        <p className='text-lg text-center mb-6 text-gray-700'>{project.banner.subtitle}</p>
+        </div>
        
         <p className="mb-6 text-lg" dangerouslySetInnerHTML={{ __html: project.introduction }}/>
         

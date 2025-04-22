@@ -7,7 +7,7 @@ export const projects: Project[] =[
         slug: "resonant-memories",
         title: 'Resonant Memories',
         subTittle: 'Textile Artist in Residence',
-        banner: '/projects/human-computer-interaction/resonant-memories/banner-resonantM.webp',
+        banner: {url:'/projects/human-computer-interaction/resonant-memories/banner-resonantM.webp'},
         introduction: `I am currently working as a textile artist for the Resonant Memories project, which is part of the <a href="https://ars.electronica.art/eudigitaldeal/en/" target="_blank" class=" font-bold underline">Digital Deal initiative</a>. This European co-funded project aims to bridge the digital divide between younger and older generations in Serbia. The residency is hosted by the <a href="https://ars.electronica.art/eudigitaldeal/en/residencies/resonant-memories-by-yulia-sion-nuno-n-correia-clopy-diaz-reyes/" target="_blank" class=" font-bold underline">Center for the Promotion of Science</a> and organised by Ars Electronica.`
 
         
@@ -18,7 +18,7 @@ export const projects: Project[] =[
         slug: "startup-estonia",
         title: 'Startup Estonia',
         subTittle: "Enhancing the 'Why Estonia' page on the Startup Estonia Web",
-        banner: '/projects/human-computer-interaction/startupEstonia/cover-startupEstonia.webp',
+        banner: {url:'/projects/human-computer-interaction/startupEstonia/cover-startupEstonia.webp'},
         cover: "/projects/human-computer-interaction/startupEstonia/cover-startupEstonia.webp",
         introduction: '<strong class=" text-2xl">This project, a collaborative effort between Tallinn University and Startup Estonia, aimed to enhance the Startup Estonia website by prioritising user needs. As the PR Director, I played a critical role in fostering a productive and collaborative team environment.</strong>',
 
@@ -43,7 +43,7 @@ export const projects: Project[] =[
         slug: "incite-dem",
         title: 'INCITE-DEM',
         subTittle: "Inclusive Citizenship in a World in Transformation: Co-Designing for Democracy",
-        banner: '/projects/human-computer-interaction/incite-dem/banner-incitedem.webp',
+        banner: {url:'/projects/human-computer-interaction/incite-dem/banner-incitedem.webp'},
         cover: "/projects/human-computer-interaction/incite-dem/cover-incitedem.webp",
         introduction: '<strong class=" text-2xl">INCITE-dem is an ongoing European co-funded project aiming to contribute uniquely to the future of democracy in Europe by harnessing historical quantitative and qualitative social science research, agent-based modelling, design thinking, and advanced analytical methods.</strong>',
 
@@ -57,6 +57,31 @@ export const projects: Project[] =[
         hover:bg-[#d86c49] hover:text-white hover:outline-[#FFFEFB]
         transition-all duration-150"> <a href="https://drive.google.com/file/d/1-DV_idYF-zYSxzFjxeXT55KFJ4xuuIWf/view" target="_blank" class=" font-bold underline">Democracy Labs Protocol</a></button> <br /><br /> As a member of the research team at a TLÜ university, we collaborated with colleagues from various European partners to develop the Democracy Labs methodology. My primary responsibility, alongside my team, was to conduct a desk research on past examples and contribute ideas for development using a Generative Design Research approach. <br /><br /> Specifically, I concentrated on the sensitising stage, which involved gathering insights and understanding the context before engaging in the collaborative, participatory design process. My focus was on methods to explore experiences as an empowering tool for effective collaboration and innovation. <br /><br /> `,
         gallery: [{imageUrl: "/projects/human-computer-interaction/incite-dem/galery-incitedem.webp", title: "", description: ""},{imageUrl: "/projects/human-computer-interaction/incite-dem/galery-incitedem2.webp", title: "", description: ""},{imageUrl: "/projects/human-computer-interaction/incite-dem/galery-incitedem3.webp", title: "", description: ""},{imageUrl: "/projects/human-computer-interaction/incite-dem/galery-incitedem4.webp", title: "", description: ""},{imageUrl: "/projects/human-computer-interaction/incite-dem/galery-incitedem5.webp", title: "", description: ""},{imageUrl: "/projects/human-computer-interaction/incite-dem/galery-incitedem6.webp", title: "", description: ""},{imageUrl: "/projects/human-computer-interaction/incite-dem/galery-incitedem7.webp", title: "", description: ""},{imageUrl: "/projects/human-computer-interaction/incite-dem/galery-incitedem8.webp", title: "", description: ""}],
+      },
+      {
+        id: '4',
+        date: "2022",
+        slug: "punching-longing",
+        title: 'Punching Longing',
+        subTittle: "Master Thesis",
+        banner: {url:'/projects/human-computer-interaction/punching-longing/banner-punching-longing.webp', subtitle:"ARS Showroom #039 „Perforeeritud igatsus“ / Punching Longing, An Interwoven Journey Though A Crafted Memory Exhibition in 2022"},
+        cover: "/projects/human-computer-interaction/punching-longing/cover-punching-longing.webp",
+        introduction: ' <strong>Punching Longing </strong> is an art project that served as my Master of Arts thesis, exploring the concept of longing through the lens of textiles and music. Set against the backdrop of Colombia’s internal conflict, this project delves into the poignant question: “What does a relative of a person presumed missing remember?”',
+
+        information: `<strong>A Woven Journey of Memory:</strong><br />
+        Punching Longing takes the form of a woven journey honouring individuals in the uncertain state of being presumed missing. Using punched cards as a unique medium, the project translates music into weaving patterns. This transformative process creates a system where music becomes fabric, a tangible representation of memory that can be played, seen, and experienced. Additionally, the materials, colours, and weaving process serve as metaphors for the emotional complexities of longing and loss.<br /><br />
+
+        <strong>Interwoven Traditions:</strong><br />
+        Beyond communication, I took the lead on key aspects of the project:<br />
+        By weaving together textile arts, music, and memory studies, Punching Longing explores the multifaceted nature of memory. This project navigates personal experiences alongside the stories of volunteers, fostering do-no-harm principles to create a respectful space for collective remembrance. Through the process, weaving, music, and memory studies are mixed, and the work aims to involve volunteers respectfully.<br /><br />
+
+        <strong>Honouring Positive Memories:</strong><br />
+        Punching Longing encourages family members to remember the positive aspects of their beloved ones. This journey seeks to find a more positive side to a painful past by focusing on the happiness and joy of remembrance. Unexpected narratives emerge, becoming integral parts of the author’s story and offering answers that were not initially sought.<br /><br />
+
+        <strong>Interwoven Stories:</strong><br />
+        The final outcome of Punching Longing consists of six textile pieces, each a unique narrative woven with a song. These pieces tell a story of joy, capturing the memories and experiences of six different individuals.
+        <br />`,
+        gallery: [{imageUrl: "/projects/human-computer-interaction/punching-longing/galery-punching-longing.webp", title: "", description: ""},{imageUrl: "/projects/human-computer-interaction/punching-longing/galery-punching-longing2.webp", title: "", description: ""},{imageUrl: "/projects/human-computer-interaction/punching-longing/galery-punching-longing3.webp", title: "", description: ""},{imageUrl: "/projects/human-computer-interaction/punching-longing/galery-punching-longing4.webp", title: "", description: ""},{imageUrl: "/projects/human-computer-interaction/punching-longing/galery-punching-longing5.webp", title: "", description: ""},{imageUrl: "/projects/human-computer-interaction/punching-longing/galery-punching-longing6.webp", title: "", description: ""},{imageUrl: "/projects/human-computer-interaction/punching-longing/galery-punching-longing7.webp", title: "", description: ""}],
       },
 
 

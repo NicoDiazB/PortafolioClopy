@@ -36,7 +36,7 @@ export default function GalleryModal({ gallery }: Props) {
             <img
               src={image.imageUrl}
               alt={image.title || ''}
-              className={`rounded-lg cursor-pointer hover:brightness-90 transition duration-200 ${gallery.length > 4 ? 'w-[300px] h-[350px]' : 'w-full'}`}
+              className={`rounded-lg cursor-pointer hover:brightness-90 transition duration-200 ${gallery.length > 4 ? 'w-[450px] h-[350px]' : 'w-full'}`}
               onClick={() => openModal(image)}
             />
           </div>
@@ -50,7 +50,7 @@ export default function GalleryModal({ gallery }: Props) {
               onClick={closeModal}
               className="absolute top-5 right-5  px-4"
             >
-              Close
+              X
             </Btn>
             <img
               src={selectedImage.imageUrl}

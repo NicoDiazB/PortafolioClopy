@@ -18,13 +18,18 @@
   imageUrl: string
  } 
 
+ interface Banner{
+  url: string
+  subtitle?: string
+ }
+
 export interface Project{
   id: string
   date: string
   slug: string
   title: string
   subTittle?: string
-  banner: string
+  banner: Banner
   cover?: string
   introduction: string
   information?: string
