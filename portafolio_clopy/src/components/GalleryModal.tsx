@@ -55,6 +55,7 @@ export default function GalleryModal({ gallery }: Props) {
             <img
               src={selectedImage.imageUrl}
               alt={selectedImage.title || 'Untitled'}
+              loading='lazy'
               className=" scale-170 h-auto rounded-lg mb-4"
             />
           </div>

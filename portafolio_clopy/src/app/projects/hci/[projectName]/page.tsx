@@ -1,4 +1,5 @@
 
+import { Btn } from '@/components/Btn';
 import GalleryModal from '@/components/GalleryModal';
 import { projects } from '@/data/projects'
 import Link from 'next/link';
@@ -36,7 +37,6 @@ export default async function ProjectDetailPage({ params }: Props) {
         <p className="mb-6 text-lg" dangerouslySetInnerHTML={{ __html: project.introduction }}/>
         
         {/* aquí seguís renderizando lo demás del proyecto: información, galería, etc */}
-        <p className='mb-6 text-xl text-pretty'dangerouslySetInnerHTML={{ __html: project.information? project.information: "" }} />
         {project.video && (
           <div className="mb-6 w-full max-w-3xl">
             <iframe
@@ -44,10 +44,13 @@ export default async function ProjectDetailPage({ params }: Props) {
               height="315"
               src={project.video}
               title="YouTube video player"
-              allowFullScreen
+              allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+              
             ></iframe>
+            <p className='text-center text-lg'>For a more immersive experience, check out the video!</p>
           </div>
         )}
+        <p className='mb-6 text-xl text-pretty'dangerouslySetInnerHTML={{ __html: project.information? project.information: "" }} />
          {/* Pass the gallery data to the client component */}
       {project.gallery && project.gallery.length > 0 && (
         <GalleryModal gallery={project.gallery} />
@@ -68,7 +71,8 @@ export default async function ProjectDetailPage({ params }: Props) {
             ))}
           </div>
         )} */}
-
+        {/* boton para subir el scroll */}
+       
         </section>
         <section>
             {/* aqui va a haber cards de los otros proyectos */}

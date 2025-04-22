@@ -84,5 +84,19 @@ export const projects: Project[] =[
         gallery: [{imageUrl: "/projects/human-computer-interaction/punching-longing/galery-punching-longing.webp", title: "", description: ""},{imageUrl: "/projects/human-computer-interaction/punching-longing/galery-punching-longing2.webp", title: "", description: ""},{imageUrl: "/projects/human-computer-interaction/punching-longing/galery-punching-longing3.webp", title: "", description: ""},{imageUrl: "/projects/human-computer-interaction/punching-longing/galery-punching-longing4.webp", title: "", description: ""},{imageUrl: "/projects/human-computer-interaction/punching-longing/galery-punching-longing5.webp", title: "", description: ""},{imageUrl: "/projects/human-computer-interaction/punching-longing/galery-punching-longing6.webp", title: "", description: ""},{imageUrl: "/projects/human-computer-interaction/punching-longing/galery-punching-longing7.webp", title: "", description: ""}],
       },
 
+      {
+        id: '5',
+        date: "2022",
+        slug: "vibmory",
+        title: 'Vibmory',
+        banner: {url:'/projects/human-computer-interaction/vibmory/banner-vibmory.webp'},
+        cover: "/projects/human-computer-interaction/vibmory/cover-vibmory.webp",
+        introduction: `I designed and created all the artefacts using my expertise in textile techniques for<strong> Vibmory: Touching Memories</strong>, which explores the physicalisation of episodic memories through vibration and textiles. Created in collaboration with Yulia Sion during the STARTS.EE arts & science residency organized by the Human-Compute Interaction (HCI) group at Tallinn University and STARTS.EU, this project delves into the complexities of recollecting the past and its role in shaping our self-identity.`,
+        video: "https://www.youtube.com/embed/R-yamVI7CTA?si=v73u6HzPDFwZHj7I",
+        information: `The concept behind Vibmory centres around the idea that we can "relive" memories by reminiscing and translating them into tangible experiences. By utilising vibration patterns and textile techniques, Vibmory aims to create a bridge between the intangible realm of memory and the physical world. <br />
+        This project showcases the potential of textiles as a medium for memory exploration and highlights the innovative ways technology can bridge the gap between past and present.`,
+        
+      },
+
 
 ]
