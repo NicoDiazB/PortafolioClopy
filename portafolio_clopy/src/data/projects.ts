@@ -37,5 +37,27 @@ export const projects: Project[] =[
         gallery: [{imageUrl: "/projects/human-computer-interaction/startupEstonia/galery-startupEstonia.webp", title: "", description: ""},{imageUrl: "/projects/human-computer-interaction/startupEstonia/galery-startupEstonia2.webp", title: "Persons", description: "Results of the Foreing founder persona and a Local founder persona"},{imageUrl: "/projects/human-computer-interaction/startupEstonia/galery-startupEstonia3.webp", title: "List of Design Suggestions", description: "(Miro Board screenshots)"},{imageUrl: "/projects/human-computer-interaction/startupEstonia/galery-startupEstonia4.webp", title: "", description: ""}],
       },
 
+      {
+        id: '3',
+        date: "2023",
+        slug: "incite-dem",
+        title: 'INCITE-DEM',
+        subTittle: "Inclusive Citizenship in a World in Transformation: Co-Designing for Democracy",
+        banner: '/projects/human-computer-interaction/incite-dem/banner-incitedem.webp',
+        cover: "/projects/human-computer-interaction/incite-dem/cover-incitedem.webp",
+        introduction: '<strong class=" text-2xl">INCITE-dem is an ongoing European co-funded project aiming to contribute uniquely to the future of democracy in Europe by harnessing historical quantitative and qualitative social science research, agent-based modelling, design thinking, and advanced analytical methods.</strong>',
+
+        information: `<button class="w-fit bg-[#E2DFCF] text-black rounded-xl py-2 px-3 font-bold
+        outline-2 outline-dashed outline-offset-[-4px] outline-[#4B70A6]
+        active:scale-95 active:shadow-[inset_0_0_8px_rgba(0,0,0,0.40)]
+        hover:bg-[#d86c49] hover:text-white hover:outline-[#FFFEFB]
+        transition-all duration-150"> <a href="https://incite-dem.eu/" target="_blank" class=" font-bold underline">Project Website</a></button> <br /><br /> As part of the INCITE-dem project aims to foster citizen participation in democracy. As part of the team developing methodology and tools for our Democracy Labs (Generative Design Workshops), we created a workshop methodology that includes a sensitisation strategy. The methodology encompasses tools to prepare future participants, respecting and supporting a diversity of backgrounds, identities, and national contexts.<br/ ><br/ > <button class="w-fit bg-[#E2DFCF] text-black rounded-xl py-2 px-3 font-bold
+        outline-2 outline-dashed outline-offset-[-4px] outline-[#4B70A6]
+        active:scale-95 active:shadow-[inset_0_0_8px_rgba(0,0,0,0.40)]
+        hover:bg-[#d86c49] hover:text-white hover:outline-[#FFFEFB]
+        transition-all duration-150"> <a href="https://drive.google.com/file/d/1-DV_idYF-zYSxzFjxeXT55KFJ4xuuIWf/view" target="_blank" class=" font-bold underline">Democracy Labs Protocol</a></button> <br /><br /> As a member of the research team at a TLÜ university, we collaborated with colleagues from various European partners to develop the Democracy Labs methodology. My primary responsibility, alongside my team, was to conduct a desk research on past examples and contribute ideas for development using a Generative Design Research approach. <br /><br /> Specifically, I concentrated on the sensitising stage, which involved gathering insights and understanding the context before engaging in the collaborative, participatory design process. My focus was on methods to explore experiences as an empowering tool for effective collaboration and innovation. <br /><br /> `,
+        gallery: [{imageUrl: "/projects/human-computer-interaction/incite-dem/galery-incitedem.webp", title: "", description: ""},{imageUrl: "/projects/human-computer-interaction/incite-dem/galery-incitedem2.webp", title: "", description: ""},{imageUrl: "/projects/human-computer-interaction/incite-dem/galery-incitedem3.webp", title: "", description: ""},{imageUrl: "/projects/human-computer-interaction/incite-dem/galery-incitedem4.webp", title: "", description: ""},{imageUrl: "/projects/human-computer-interaction/incite-dem/galery-incitedem5.webp", title: "", description: ""},{imageUrl: "/projects/human-computer-interaction/incite-dem/galery-incitedem6.webp", title: "", description: ""},{imageUrl: "/projects/human-computer-interaction/incite-dem/galery-incitedem7.webp", title: "", description: ""},{imageUrl: "/projects/human-computer-interaction/incite-dem/galery-incitedem8.webp", title: "", description: ""}],
+      },
+
 
 ]

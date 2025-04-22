@@ -11,7 +11,13 @@
     imageUrl: string
     date: string
   }
-  
+
+ export interface Gallery{
+  title?: string
+  description?: string
+  imageUrl: string
+ } 
+
 export interface Project{
   id: string
   date: string
@@ -23,7 +29,7 @@ export interface Project{
   introduction: string
   information?: string
   video?: string
-  gallery?: string[]
+  gallery?: Gallery[]
 }
 
 export interface ProjectsSectionProps {

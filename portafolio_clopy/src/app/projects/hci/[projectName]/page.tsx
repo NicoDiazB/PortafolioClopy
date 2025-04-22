@@ -1,4 +1,5 @@
 
+import GalleryModal from '@/components/GalleryModal';
 import { projects } from '@/data/projects'
 import Link from 'next/link';
 import { notFound } from 'next/navigation'
@@ -24,7 +25,7 @@ export default async function ProjectDetailPage({ params }: Props) {
             ← − −  Back to HCI Projects
         </Link>
         </div>
-        <section className='flex flex-col items-center gap-2'>
+        <section className='flex flex-col items-center '>
         <h1 className="text-4xl font-bold ">{project.title}</h1>
         <h3 className='text-xl text-gray-700 mb-4'>{project.subTittle}</h3>
         <img src={project.banner} alt={project.title} className="mb-6 max-h-[800px] rounded-xl" />
@@ -32,7 +33,7 @@ export default async function ProjectDetailPage({ params }: Props) {
         <p className="mb-6 text-lg" dangerouslySetInnerHTML={{ __html: project.introduction }}/>
         
         {/* aquí seguís renderizando lo demás del proyecto: información, galería, etc */}
-        <p className='mb-6 text-xl'dangerouslySetInnerHTML={{ __html: project.information? project.information: "" }} />
+        <p className='mb-6 text-xl text-pretty'dangerouslySetInnerHTML={{ __html: project.information? project.information: "" }} />
         {project.video && (
           <div className="mb-6 w-full max-w-3xl">
             <iframe
@@ -44,7 +45,11 @@ export default async function ProjectDetailPage({ params }: Props) {
             ></iframe>
           </div>
         )}
-        {project.gallery && project.gallery.length > 0 && (
+         {/* Pass the gallery data to the client component */}
+      {project.gallery && project.gallery.length > 0 && (
+        <GalleryModal gallery={project.gallery} />
+      )}
+        {/* {project.gallery && project.gallery.length > 0 && (
           <div className="mb-6 flex flex-col items-center gap-6 ">
             {project.gallery.map((image, index) => (
                 <div key={index} className="">
@@ -59,7 +64,7 @@ export default async function ProjectDetailPage({ params }: Props) {
                 </div>
             ))}
           </div>
-        )}
+        )} */}
 
         </section>
         <section>
