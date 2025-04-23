@@ -47,11 +47,11 @@ export const projects: Project[] =[
         cover: "/projects/human-computer-interaction/incite-dem/cover-incitedem.webp",
         introduction: '<strong class=" text-2xl">INCITE-dem is an ongoing European co-funded project aiming to contribute uniquely to the future of democracy in Europe by harnessing historical quantitative and qualitative social science research, agent-based modelling, design thinking, and advanced analytical methods.</strong>',
 
-        information: `<button class="w-fit bg-[#E2DFCF] text-black rounded-xl py-2 px-3 font-bold
+        information: `<button class="w-fit cursor-pointer bg-[#E2DFCF] text-black rounded-xl py-2 px-3 font-bold
         outline-2 outline-dashed outline-offset-[-4px] outline-[#4B70A6]
         active:scale-95 active:shadow-[inset_0_0_8px_rgba(0,0,0,0.40)]
         hover:bg-[#d86c49] hover:text-white hover:outline-[#FFFEFB]
-        transition-all duration-150"> <a href="https://incite-dem.eu/" target="_blank" class=" font-bold underline">Project Website</a></button> <br /><br /> As part of the INCITE-dem project aims to foster citizen participation in democracy. As part of the team developing methodology and tools for our Democracy Labs (Generative Design Workshops), we created a workshop methodology that includes a sensitisation strategy. The methodology encompasses tools to prepare future participants, respecting and supporting a diversity of backgrounds, identities, and national contexts.<br/ ><br/ > <button class="w-fit bg-[#E2DFCF] text-black rounded-xl py-2 px-3 font-bold
+        transition-all "> <a href="https://incite-dem.eu/" target="_blank" class=" font-bold underline">Project Website</a></button> <br /><br /> As part of the INCITE-dem project aims to foster citizen participation in democracy. As part of the team developing methodology and tools for our Democracy Labs (Generative Design Workshops), we created a workshop methodology that includes a sensitisation strategy. The methodology encompasses tools to prepare future participants, respecting and supporting a diversity of backgrounds, identities, and national contexts.<br/ ><br/ > <button class="w-fit bg-[#E2DFCF] text-black rounded-xl py-2 px-3 font-bold
         outline-2 outline-dashed outline-offset-[-4px] outline-[#4B70A6]
         active:scale-95 active:shadow-[inset_0_0_8px_rgba(0,0,0,0.40)]
         hover:bg-[#d86c49] hover:text-white hover:outline-[#FFFEFB]
@@ -149,21 +149,28 @@ export const projects: Project[] =[
       },
 
       {
-        id: '6',
+        id: '8',
         date: "2020",
-        slug: "power-a",
-        title: 'Power-A For Gourmet',
-        subTittle:"A speculative design project on alternative food source",
-        banner: {url:'/projects/human-computer-interaction/power-a/banner-powerA.webp', subtitle:"edited by @succo_julian"},
-        cover: "/projects/human-computer-interaction/power-a/cover-powerA.webp",
-        introduction: `My role in this project, part of the Estonian Academy of Arts' experimental materials subject, involved researching algae and its potential applications. Specifically, I focused on finding new uses for Baltic Sea algae. This research included a literature overview, data collection, and algae collection. While we aimed to prototype an algae-based product based on our findings, due to COVID-19 restrictions, the outcome remained entirely digital. The project also participated in the 2020 Bio-Design Challenge.<br /><br /> The project's inspiration stemmed from the changing relationship between humans and food. We investigated how food technology has influenced our development and envisioned a future where food serves primarily for pleasure, with essential nutrition coming from alternative sources.`,
-        imageInformation:"/projects/human-computer-interaction/power-a/image-powerA.webp",
-        information: `The research focused on symbiotic relationships in nature, particularly lichens, which combine fungus and algae for survival. This exploration led us to consider whether algae could provide nutrients directly through human skin. Jewellery was considered a potential platform for delivering these nutrients in the future.<br /><br />
-
-        The project's vision is to develop an algae-based transdermal patch that delivers essential nutrients, freeing humans from the routine of eating for basic needs. This approach could also contribute to reducing food waste and environmental impact.<br /><br />
-        Overall, the project explored the potential of algae as a future food source and applied bio-design principles in product development. Through my role, I gained valuable experience in research and speculative design.
+        slug: "dream-weavers-workshop",
+        title: "Dream Weavers' workshop",
+        subTittle:"Designing with children.",
+        banner: {url:'/projects/human-computer-interaction/vivistop/banner-vivistop.webp'},
+        cover: "/projects/human-computer-interaction/vivistop/cover-vivistop.webp",
+        introduction: `The Dream Weaver's Workshop project explored how to create a fun and creative space for kids. <br /> <br /> Originally planned as an in-person activity, it shifted online due to COVID-19. Over 16 weeks, I led this project, working with children who attended Vivistop's creative space online and in person (when safe) to learn about their hopes and ideas for this space. This project focused on developing a proposal for a space initially intended to be conducted in person, but the process shifted to online to ensure safety and continuity. Over 16 weeks, I facilitated this solo project, working closely with children both in person and online to understand their needs and aspirations for the Vivistop space. <br /><br />
+        The outcome of this project was the mix of a praxinoscope and a music box, transforming the space into an entertaining yet creative environment. The final work was presented via Zoom, ensuring the project remained connected and collaborative.
         `,
-        gallery:[{imageUrl:"/projects/human-computer-interaction/power-a/galery-powerA.webp"},{imageUrl:"/projects/human-computer-interaction/power-a/galery-powerA2.webp"},]
+        
+        
+        gallery:[{imageUrl:"/projects/human-computer-interaction/vivistop/galery-vivistop.webp", context:"1. Exploring the Outsite"},{imageUrl:"/projects/human-computer-interaction/vivistop/galery-vivistop2.webp", context:"2. Child's Drawings"},{imageUrl:"/projects/human-computer-interaction/vivistop/galery-vivistop3.webp", context:"3. Walking around"},{imageUrl:"/projects/human-computer-interaction/vivistop/galery-vivistop4.webp", context:"4. Re-imagining the Space"},{imageUrl:"/projects/human-computer-interaction/vivistop/galery-vivistop5.webp", context:"5. In-person Work"},{imageUrl:"/projects/human-computer-interaction/vivistop/galery-vivistop6.webp", context:"6. Gathering their thoughts"},{imageUrl:"/projects/human-computer-interaction/vivistop/galery-vivistop7.webp", context:"7. Children's suggestions"},{imageUrl:"/projects/human-computer-interaction/vivistop/galery-vivistop8.webp", context:"8. The proposal"}],
+
+        otherimfortmation: `<strong>Project Procces</strong><br /><br />  
+        1. Site Recognition and Contextual Understanding: As practitioners, we explored the location and walked around to understand the context and the environment.<br /><br />
+        2. Engagement with Vivistop Children: We interacted with the children who attended Vivistop, learning about their activities and experiences.<br /><br />
+        3. Gathering Insights: We inquired about and listened to the children's preferences and ideas to understand what they would like to have or do in the space.<br /><br />
+        The final work was presented via Zoom, ensuring the project remained connected and collaborative.
+        <br /><br />
+        
+        `
         
       },
 

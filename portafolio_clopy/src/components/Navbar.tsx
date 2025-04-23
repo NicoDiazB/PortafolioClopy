@@ -36,7 +36,7 @@ export const Navbar = () => {
             <Link href="/projects/hci" className={linkClasses('/projects/hci')}>HIC PROJECTS</Link>
             <Link href="/about" className={linkClasses('/about')}>TEXTILE PROJECT</Link>
             <Link href="/contact-me" className={linkClasses('/contact-me')}>CONTACT</Link>
-            <a className="font-normal">
+            <a href='https://docs.google.com/document/d/149Ehni8C9ZHilrNiPKCl9Q41MMyBbDRIrnHz4oZMqFw/edit?tab=t.0' target='_blank' className="font-normal">
               CV
             </a>
           </div>
@@ -57,7 +57,7 @@ export const Navbar = () => {
               <Link href="/projects/hci" className={linkClasses('/projects/hci')}>HIC PROJECTS</Link>
               <Link href="/about" className={linkClasses('/about')}>TEXTILE PROJECT</Link>
               <Link href="/contact-me" className={linkClasses('/contact-me')}>CONTACT</Link>
-              <a className="font-normal">
+              <a href='https://docs.google.com/document/d/149Ehni8C9ZHilrNiPKCl9Q41MMyBbDRIrnHz4oZMqFw/edit?tab=t.0' target='_blank' className="font-normal">
                 CV
               </a>
             </div>

@@ -21,7 +21,7 @@ export const Btn: React.FC<ButtonProps> = ({
         outline-2 outline-dashed outline-offset-[-4px] outline-[#4B70A6]
         active:scale-95 active:shadow-[inset_0_0_8px_rgba(0,0,0,0.40)]
         hover:bg-[#d86c49] hover:text-white hover:outline-[#FFFEFB]
-        transition-all duration-150
+        transition-all
         ${disabled ? 'opacity-50 cursor-not-allowed' : ''}
         ${className}
       `}
