@@ -9,6 +9,7 @@ export const CardProyect: React.FC<CardProyectProps> = ({ title, imageUrl, date 
         src={imageUrl}
         alt={title}
         className="w-full h-full object-cover transition-opacity duration-300 group-hover:opacity-40"
+        loading='lazy'
       />
       <div className="absolute flex-col pt-8 inset-0 flex items-center justify-start opacity-0 group-hover:opacity-100 transition-opacity duration-300">
       <span className="text-black text-2xl font-bold drop-shadow-md text-center px-4">{title}</span>

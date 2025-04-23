@@ -57,10 +57,12 @@ export default async function ProjectDetailPage({ params }: Props) {
           </div>
         )}
         <p className='mb-6 text-xl text-pretty'dangerouslySetInnerHTML={{ __html: project.information? project.information: "" }} />
-         {/* Pass the gallery data to the client component */}
+         {/* gallery component */}
       {project.gallery && project.gallery.length > 0 && (
         <GalleryModal gallery={project.gallery} />
       )}
+      {/* otra infromacion */}
+       <p className='mb-6 text-xl text-pretty'dangerouslySetInnerHTML={{ __html: project.otherimfortmation? project.otherimfortmation: "" }} />
         {/* {project.gallery && project.gallery.length > 0 && (
           <div className="mb-6 flex flex-col items-center gap-6 ">
             {project.gallery.map((image, index) => (

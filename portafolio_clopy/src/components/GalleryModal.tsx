@@ -28,17 +28,18 @@ export default function GalleryModal({ gallery }: Props) {
           gallery.length > 4 ? 'flex-wrap' : 'flex-col'
         } items-center justify-center gap-6`}>
         {gallery.map((image, index) => (
-          <div key={index} className="">
-            <h3 className="font-semibold text-xl text-center">
+          <div key={index} >
+            <h3 className="font-semibold text-xl text-center ">
               {image.title || ''}
             </h3>
             <p className="text-lg text-center ">{image.description || ''}</p>
             <img
               src={image.imageUrl}
               alt={image.title || ''}
-              className={`rounded-lg cursor-pointer hover:brightness-90 transition duration-200 ${gallery.length > 4 ? 'w-[450px] h-[350px]' : 'w-full'}`}
+              className={`rounded-xl cursor-zoom-in hover:brightness-75 transition duration-200 ${gallery.length > 4 ? 'w-[450px] h-[350px]' : 'w-full'}`}
               onClick={() => openModal(image)}
             />
+            <p className='text-center'>{image.context}</p>
           </div>
         ))}
       </div>

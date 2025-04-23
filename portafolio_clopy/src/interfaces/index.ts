@@ -16,6 +16,7 @@
   title?: string
   description?: string
   imageUrl: string
+  context?:string
  } 
 
  interface Banner{
@@ -36,6 +37,7 @@ export interface Project{
   imageInformation?: string
   video?: string
   gallery?: Gallery[]
+  otherimfortmation?: string
 }
 
 export interface ProjectsSectionProps {

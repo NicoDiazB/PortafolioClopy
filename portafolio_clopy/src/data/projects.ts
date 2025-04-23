@@ -115,6 +115,57 @@ export const projects: Project[] =[
         gallery:[{imageUrl:"/projects/human-computer-interaction/power-a/galery-powerA.webp"},{imageUrl:"/projects/human-computer-interaction/power-a/galery-powerA2.webp"},]
         
       },
+      {
+        id: '7',
+        date: "2020",
+        slug: "clayplay",
+        title: 'ClayPlay',
+        subTittle:"User-Centred Design",
+        banner: {url:'/projects/human-computer-interaction/clayplay/banner-clayplay.webp', subtitle:"edited by @succo_julian"},
+        cover: "/projects/human-computer-interaction/clayplay/cover-clayplay.webp",
+        introduction: `A social and User-Centred Design project was a collaborative effort with Merimetsa Keskus and the Estonian Academy of Arts (EKA), focusing on developing creative solutions with people with special needs. <br /> Initially, the plan was to co-create directly with the participants, but the COVID-19 pandemic required the project to shift to a practitioner-led proposal. The guiding philosophy of this project was <strong>  “Nobody is perfect. It is what makes us unique and beautiful” </strong> which informed the inclusive and empowering design approach.`,
+        information: ` <strong class="text-2xl">My Role and Responsibilities</strong> <br /> <br />
+
+        <strong>Facilitator and Designer: </strong>Led the project, adapting to the challenges of the pandemic and ensuring the project remained user-focused. <br /><br />
+        <strong>Researcher: </strong>Conducted an initial site visit to gather insights into the needs and preferences of participants. <br /><br />
+        <strong>Developer: </strong>Created a proposal for customizable and reproducible personal artefacts using clay.<br />
+        `,
+        gallery:[{imageUrl:"/projects/human-computer-interaction/clayplay/galery-clayplay.webp", context:"1. The original shape"},{imageUrl:"/projects/human-computer-interaction/clayplay/galery-clayplay2.webp", context:"2- Slip-Cast Process"},{imageUrl:"/projects/human-computer-interaction/clayplay/galery-clayplay3.webp", context:"3. First Production"},{imageUrl:"/projects/human-computer-interaction/clayplay/galery-clayplay4.webp", context:"4. Customised shapes"},{imageUrl:"/projects/human-computer-interaction/clayplay/galery-clayplay5.webp", context:"5. Belle and the bowl"},{imageUrl:"/projects/human-computer-interaction/clayplay/galery-clayplay6.webp", context:"6. Tool in Quarantine"},{imageUrl:"/projects/human-computer-interaction/clayplay/galery-clayplay7.webp", context:"7. Dried shapes"},{imageUrl:"/projects/human-computer-interaction/clayplay/galery-clayplay8.webp", context:"8. Painting the Productions"},{imageUrl:"/projects/human-computer-interaction/clayplay/galery-clayplay9.webp", context:"9. Final Products"}],
+
+        otherimfortmation: `<strong>Project Goals:</strong><br /><br />
+        <strong>Technique:</strong> Develop a practical method for creating personalised artefacts.<br /><br />
+        <strong>Identity:</strong> Enable participants to express their unique identities through their creations.<br /><br />
+        <strong>Efficiency:</strong> Ensure the process is efficient and manageable for people with special needs.<br /><br />
+        <strong>Market Appeal:</strong> Design the product visually appealing and engaging to a broader audience.<br /><br />
+        <strong>Process</strong><br /><br />
+
+        <strong>Initial Site Visit:</strong><br /> <br /> I visited Merimetsa Keskus to understand the environment and gather insights into the needs and capabilities of the participants. This visit was crucial in informing the design process, as further direct engagement was impossible due to the pandemic.<br /><br />
+        <strong>Developing the Proposal:</strong><br /> <br /> Based on the initial visit and understanding the participants’ needs, I developed a proposal to create personalised slip-casting moulds. This technique allows each person to customise their artefacts with pieces and colours, making the process accessible and meaningful.<br /><br />
+        The design ensured the process was easy to reproduce, allowing participants to create and customise their clay artefacts independently.<br /><br />
+        <strong>Outcome:</strong><br /> <br /> The final proposal featured clay and personal artefacts that were easy to customise and reproduce. Each artefact could be uniquely personalised using slip-casting moulds, allowing participants to apply their own pieces and colours. This approach supported the goals of technique, identity, and productivity, empowering participants to express their individuality through their creations.<br /><br />
+        <strong>Presentation:</strong><br /> <br /> The project concluded with a detailed proposal outlining the process for implementing the personalised clay artefacts, emphasising user-centred design and market appeal.<br /><br />
+
+        `        
+      },
+
+      {
+        id: '6',
+        date: "2020",
+        slug: "power-a",
+        title: 'Power-A For Gourmet',
+        subTittle:"A speculative design project on alternative food source",
+        banner: {url:'/projects/human-computer-interaction/power-a/banner-powerA.webp', subtitle:"edited by @succo_julian"},
+        cover: "/projects/human-computer-interaction/power-a/cover-powerA.webp",
+        introduction: `My role in this project, part of the Estonian Academy of Arts' experimental materials subject, involved researching algae and its potential applications. Specifically, I focused on finding new uses for Baltic Sea algae. This research included a literature overview, data collection, and algae collection. While we aimed to prototype an algae-based product based on our findings, due to COVID-19 restrictions, the outcome remained entirely digital. The project also participated in the 2020 Bio-Design Challenge.<br /><br /> The project's inspiration stemmed from the changing relationship between humans and food. We investigated how food technology has influenced our development and envisioned a future where food serves primarily for pleasure, with essential nutrition coming from alternative sources.`,
+        imageInformation:"/projects/human-computer-interaction/power-a/image-powerA.webp",
+        information: `The research focused on symbiotic relationships in nature, particularly lichens, which combine fungus and algae for survival. This exploration led us to consider whether algae could provide nutrients directly through human skin. Jewellery was considered a potential platform for delivering these nutrients in the future.<br /><br />
+
+        The project's vision is to develop an algae-based transdermal patch that delivers essential nutrients, freeing humans from the routine of eating for basic needs. This approach could also contribute to reducing food waste and environmental impact.<br /><br />
+        Overall, the project explored the potential of algae as a future food source and applied bio-design principles in product development. Through my role, I gained valuable experience in research and speculative design.
+        `,
+        gallery:[{imageUrl:"/projects/human-computer-interaction/power-a/galery-powerA.webp"},{imageUrl:"/projects/human-computer-interaction/power-a/galery-powerA2.webp"},]
+        
+      },
 
 
 ]
