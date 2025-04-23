@@ -13,6 +13,42 @@ export const projects: Project[] =[
 
         
       },
+      // textile projects
+      {
+        id: '9',
+        date: "2024",
+        slug: "dzeltenas-bernibas-magiskaja-vieta",
+        title: 'Dzeltenās bērnības maģiskajā vietā',
+        cover: "/projects/textile/dzeltenas/cover-dzeltenas.webp",
+        banner: {url:'/projects/textile/dzeltenas/banner-dzeltenas.webp'},
+        introduction: `In the Magic Place of the Yellow (Sunny) Childhood is a collaborative textile work that explores themes of migration, memory, and identity. By merging traditional and digital techniques, including free-motion machine embroidery, weaving, 3D printing, and heat press, we created a series of pieces that reflect our personal journeys and shared experiences.`,
+        information:`Drawing inspiration from our childhoods, we delved into personal histories and experimented with new artistic processes. The resulting works are a testament to the power of collaboration, blending diverse cultural backgrounds and artistic perspectives. Through experimentation and the embrace of unexpected outcomes, we created a visual language that speaks to the complexity of the human experience.<br /><br /><br />
+        The project culminated in “Eluoluline” exhibition, organised by the Estonian Textile Artists’ Association in Tartu, December 2022.`,
+        gallery:[{imageUrl: "/projects/textile/dzeltenas/galery-dzeltenas.webp", title: "", description: ""},{imageUrl: "/projects/textile/dzeltenas/galery-dzeltenas2.webp", title: "", description: ""},{imageUrl: "/projects/textile/dzeltenas/galery-dzeltenas3.webp", title: "", description: ""},{imageUrl: "/projects/textile/dzeltenas/galery-dzeltenas4.webp", title: "", description: ""},{imageUrl: "/projects/textile/dzeltenas/galery-dzeltenas5.webp", title: "", description: ""}],
+        categories: ["textiles"],
+
+        
+      },
+
+      {
+        id: '10',
+        date: "2024",
+        slug: "degenerando-oficios",
+        title: 'Degenerando Oficios',
+        cover: "/projects/textile/degenerando/cover-degenerandoOficios.webp",
+        banner: {url:'/projects/textile/degenerando/banner-degenerandoOficios.webp'},
+        introduction: `This project embraced a bold vision: challenging traditional masculinity through the practice of knitting. In Cali, Colombia, we brought together a group of men to create a vibrant community focused on creativity, togetherness, and personal growth.`,
+        information:`Spearheading the project, I facilitated our knitting circle, which became a space for exploration, allowing participants to challenge societal norms and uncover hidden talents. The experience encouraged a strong sense of belonging, with members sharing stories, laughter, and mutual support.<br /><br />
+       The project’s impact extended beyond our group. One participant’s knitted process became an artwork showcased in a prestigious master’s program exhibition in Germany. At the same time, another’s inspiring journey was featured in a local magazine, sparking broader interest and conversation about the project.<br /><br />
+       This initiative highlighted knitting’s power as a personal transformation and community-building catalyst. Challenging stereotypes and celebrating diversity created a positive and inspiring experience for all involved.
+       
+       `,
+        gallery:[{imageUrl: "/projects/textile/degenerando/galery-degenerandoOficios.webp"},{imageUrl: "/projects/textile/degenerando/galery-degenerandoOficios2.webp"},{imageUrl: "/projects/textile/degenerando/galery-degenerandoOficios3.webp"},{imageUrl: "/projects/textile/degenerando/galery-degenerandoOficios4.webp"},{imageUrl: "/projects/textile/degenerando/galery-degenerandoOficios5.webp"}],
+        categories: ["textiles"],
+
+        
+      },
+
       {
         id: '2',
         date: "2023",

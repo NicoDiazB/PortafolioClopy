@@ -20,8 +20,8 @@ export default async function ProjectDetailPage({ params }: Props) {
       <article className="flex flex-col pt-40  md:max-w-[1000px] mx-auto">
         <div className='mb-4'>
 
-        <Link href="/projects/hci" className=" font-bold underline text-lg underline-offset-4 decoration-[1px] hover:decoration-[2px] hover:text-black mb-6 ">
-            ← − −  Back to HCI Projects
+        <Link href="/projects/textiles" className=" font-bold underline text-lg underline-offset-4 decoration-[1px] hover:decoration-[2px] hover:text-black mb-6 ">
+            ← − −  Back to Textiles Projects
         </Link>
         </div>
         <section className='flex flex-col items-center '>
