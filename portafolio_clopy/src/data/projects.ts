@@ -8,7 +8,8 @@ export const projects: Project[] =[
         title: 'Resonant Memories',
         subTittle: 'Textile Artist in Residence',
         banner: {url:'/projects/human-computer-interaction/resonant-memories/banner-resonantM.webp'},
-        introduction: `I am currently working as a textile artist for the Resonant Memories project, which is part of the <a href="https://ars.electronica.art/eudigitaldeal/en/" target="_blank" class=" font-bold underline">Digital Deal initiative</a>. This European co-funded project aims to bridge the digital divide between younger and older generations in Serbia. The residency is hosted by the <a href="https://ars.electronica.art/eudigitaldeal/en/residencies/resonant-memories-by-yulia-sion-nuno-n-correia-clopy-diaz-reyes/" target="_blank" class=" font-bold underline">Center for the Promotion of Science</a> and organised by Ars Electronica.`
+        introduction: `I am currently working as a textile artist for the Resonant Memories project, which is part of the <a href="https://ars.electronica.art/eudigitaldeal/en/" target="_blank" class=" font-bold underline">Digital Deal initiative</a>. This European co-funded project aims to bridge the digital divide between younger and older generations in Serbia. The residency is hosted by the <a href="https://ars.electronica.art/eudigitaldeal/en/residencies/resonant-memories-by-yulia-sion-nuno-n-correia-clopy-diaz-reyes/" target="_blank" class=" font-bold underline">Center for the Promotion of Science</a> and organised by Ars Electronica.`,
+        categories: ["hci", "textiles"],
 
         
       },
@@ -35,6 +36,7 @@ export const projects: Project[] =[
         This project aimed to make the 'Why Estonia' page more attractive by prioritising user needs. My focus on communication and user persona development ensured we gathered and integrated valuable insights from entrepreneurs. This user-centric approach was crucial in creating a website experience that resonates with potential founders, ultimately attracting them to consider Estonia as their startup hub.
         <br />`,
         gallery: [{imageUrl: "/projects/human-computer-interaction/startupEstonia/galery-startupEstonia.webp", title: "", description: ""},{imageUrl: "/projects/human-computer-interaction/startupEstonia/galery-startupEstonia2.webp", title: "Persons", description: "Results of the Foreing founder persona and a Local founder persona"},{imageUrl: "/projects/human-computer-interaction/startupEstonia/galery-startupEstonia3.webp", title: "List of Design Suggestions", description: "(Miro Board screenshots)"},{imageUrl: "/projects/human-computer-interaction/startupEstonia/galery-startupEstonia4.webp", title: "", description: ""}],
+        categories: ["hci"],
       },
 
       {
@@ -57,6 +59,7 @@ export const projects: Project[] =[
         hover:bg-[#d86c49] hover:text-white hover:outline-[#FFFEFB]
         transition-all duration-150"> <a href="https://drive.google.com/file/d/1-DV_idYF-zYSxzFjxeXT55KFJ4xuuIWf/view" target="_blank" class=" font-bold underline">Democracy Labs Protocol</a></button> <br /><br /> As a member of the research team at a TLÜ university, we collaborated with colleagues from various European partners to develop the Democracy Labs methodology. My primary responsibility, alongside my team, was to conduct a desk research on past examples and contribute ideas for development using a Generative Design Research approach. <br /><br /> Specifically, I concentrated on the sensitising stage, which involved gathering insights and understanding the context before engaging in the collaborative, participatory design process. My focus was on methods to explore experiences as an empowering tool for effective collaboration and innovation. <br /><br /> `,
         gallery: [{imageUrl: "/projects/human-computer-interaction/incite-dem/galery-incitedem.webp", title: "", description: ""},{imageUrl: "/projects/human-computer-interaction/incite-dem/galery-incitedem2.webp", title: "", description: ""},{imageUrl: "/projects/human-computer-interaction/incite-dem/galery-incitedem3.webp", title: "", description: ""},{imageUrl: "/projects/human-computer-interaction/incite-dem/galery-incitedem4.webp", title: "", description: ""},{imageUrl: "/projects/human-computer-interaction/incite-dem/galery-incitedem5.webp", title: "", description: ""},{imageUrl: "/projects/human-computer-interaction/incite-dem/galery-incitedem6.webp", title: "", description: ""},{imageUrl: "/projects/human-computer-interaction/incite-dem/galery-incitedem7.webp", title: "", description: ""},{imageUrl: "/projects/human-computer-interaction/incite-dem/galery-incitedem8.webp", title: "", description: ""}],
+        categories: ["hci"],
       },
       {
         id: '4',
@@ -82,6 +85,7 @@ export const projects: Project[] =[
         The final outcome of Punching Longing consists of six textile pieces, each a unique narrative woven with a song. These pieces tell a story of joy, capturing the memories and experiences of six different individuals.
         <br />`,
         gallery: [{imageUrl: "/projects/human-computer-interaction/punching-longing/galery-punching-longing.webp", title: "", description: ""},{imageUrl: "/projects/human-computer-interaction/punching-longing/galery-punching-longing2.webp", title: "", description: ""},{imageUrl: "/projects/human-computer-interaction/punching-longing/galery-punching-longing3.webp", title: "", description: ""},{imageUrl: "/projects/human-computer-interaction/punching-longing/galery-punching-longing4.webp", title: "", description: ""},{imageUrl: "/projects/human-computer-interaction/punching-longing/galery-punching-longing5.webp", title: "", description: ""},{imageUrl: "/projects/human-computer-interaction/punching-longing/galery-punching-longing6.webp", title: "", description: ""},{imageUrl: "/projects/human-computer-interaction/punching-longing/galery-punching-longing7.webp", title: "", description: ""}],
+        categories: ["hci", "textiles"],
       },
 
       {
@@ -95,6 +99,7 @@ export const projects: Project[] =[
         video: "https://www.youtube.com/embed/R-yamVI7CTA?si=v73u6HzPDFwZHj7I",
         information: `The concept behind Vibmory centres around the idea that we can "relive" memories by reminiscing and translating them into tangible experiences. By utilising vibration patterns and textile techniques, Vibmory aims to create a bridge between the intangible realm of memory and the physical world. <br />
         This project showcases the potential of textiles as a medium for memory exploration and highlights the innovative ways technology can bridge the gap between past and present.`,
+        categories: ["hci", "textiles"],
         
       },
       {
@@ -112,8 +117,8 @@ export const projects: Project[] =[
         The project's vision is to develop an algae-based transdermal patch that delivers essential nutrients, freeing humans from the routine of eating for basic needs. This approach could also contribute to reducing food waste and environmental impact.<br /><br />
         Overall, the project explored the potential of algae as a future food source and applied bio-design principles in product development. Through my role, I gained valuable experience in research and speculative design.
         `,
-        gallery:[{imageUrl:"/projects/human-computer-interaction/power-a/galery-powerA.webp"},{imageUrl:"/projects/human-computer-interaction/power-a/galery-powerA2.webp"},]
-        
+        gallery:[{imageUrl:"/projects/human-computer-interaction/power-a/galery-powerA.webp"},{imageUrl:"/projects/human-computer-interaction/power-a/galery-powerA2.webp"},],
+        categories: ["hci"],
       },
       {
         id: '7',
@@ -145,7 +150,8 @@ export const projects: Project[] =[
         <strong>Outcome:</strong><br /> <br /> The final proposal featured clay and personal artefacts that were easy to customise and reproduce. Each artefact could be uniquely personalised using slip-casting moulds, allowing participants to apply their own pieces and colours. This approach supported the goals of technique, identity, and productivity, empowering participants to express their individuality through their creations.<br /><br />
         <strong>Presentation:</strong><br /> <br /> The project concluded with a detailed proposal outlining the process for implementing the personalised clay artefacts, emphasising user-centred design and market appeal.<br /><br />
 
-        `        
+        `,
+        categories: ["hci"], 
       },
 
       {
@@ -170,8 +176,8 @@ export const projects: Project[] =[
         The final work was presented via Zoom, ensuring the project remained connected and collaborative.
         <br /><br />
         
-        `
-        
+        `,
+        categories: ["hci"],
       },
 
 

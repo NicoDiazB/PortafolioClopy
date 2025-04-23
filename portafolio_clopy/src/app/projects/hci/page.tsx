@@ -7,7 +7,7 @@ import React from 'react'
  const ProjectsHci:React.FC = () => {
   return (
     <div>
-        <ProjectsSection sectionTitle='HUMAN-COMPUTER INTERACTION' sectionDescription='I have experience with participatory Design approach and Generative Design Research. My collaborative social practices help me explore new ideas. With expertise in design and crafts, my passion for textiles keeps my creative flame alive and fuels my ability to interweave technology and creativity.' projects={projects}/>
+        <ProjectsSection sectionTitle='HUMAN-COMPUTER INTERACTION' sectionDescription='I have experience with participatory Design approach and Generative Design Research. My collaborative social practices help me explore new ideas. With expertise in design and crafts, my passion for textiles keeps my creative flame alive and fuels my ability to interweave technology and creativity.' projects={projects} type='hci'/>
     </div>
   )
 }

@@ -1,8 +1,8 @@
-import { CardProyectProps } from '@/interfaces'
+import { CardProjectProps } from '@/interfaces'
 import React from 'react'
 
 
-export const CardProyect: React.FC<CardProyectProps> = ({ title, imageUrl, date }) => {
+export const CardProject: React.FC<CardProjectProps> = ({ title, imageUrl, date }) => {
   return (
     <div className="relative w-full max-w-md h-90 rounded-lg overflow-hidden group cursor-pointer shadow-md">
       <img

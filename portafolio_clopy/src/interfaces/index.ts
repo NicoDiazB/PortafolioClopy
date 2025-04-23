@@ -6,10 +6,10 @@
     disabled?: boolean
   }
 
-  export interface CardProyectProps {
+  export interface CardProjectProps {
     title: string
     imageUrl: string
-    date: string
+    date?: string
   }
 
  export interface Gallery{
@@ -38,12 +38,14 @@ export interface Project{
   video?: string
   gallery?: Gallery[]
   otherimfortmation?: string
+  categories: string[];
 }
 
 export interface ProjectsSectionProps {
     sectionTitle: string
     sectionDescription: string
     projects: Project[]
+    type: string
 
 
 }

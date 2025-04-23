@@ -1,7 +1,5 @@
 import { Btn } from "@/components/Btn";
 import { CardCategoryProjects } from "@/components/CardCategoryProjects";
-import { CardProyect } from "@/components/CardProyect";
-import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
@@ -20,7 +18,7 @@ export default function Home() {
       
         <CardCategoryProjects title="HUMAN-COMPUTER INTERACTION" imageUrl="/projects/human-computer-interaction/HCI.png"/>
       </Link>
-      <Link href={"/projects/textile"}>
+      <Link href={"/projects/textiles"}>
       
         <CardCategoryProjects title="HUMAN-COMPUTER INTERACTION" imageUrl="/projects/human-computer-interaction/HCI.png"/>
       </Link>
