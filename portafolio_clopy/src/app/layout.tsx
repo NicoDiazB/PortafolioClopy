@@ -12,7 +12,7 @@ const lekton = Lekton({
 });
 
 export const metadata: Metadata = {
-  title: "Portafolio Clopy",
+  title: "Clopy Diaz Reyes",
   description: "",
 };
 

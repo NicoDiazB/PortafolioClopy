@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <main className="flex flex-col justify-center items-center gap-20">
      <section className="flex flex-col items-center gap-4 mt-60   ">
-      <h1 className="font-bold text-2xl md:text-4xl ">hi, i am cloply</h1>
+      <h1 className="font-bold text-2xl md:text-4xl ">hi, i am clopy</h1>
       <p className="text-lg text-center md:text-2xl  md:max-w-[1000px] leading-tight ">I am a multidisciplinary design researcher and artist navigating experiences, technology, and crafts. My creative process thrives on collaboration, using participatory methods to understand and address social and community needs, contributing to positive change.See my work below!</p>
      </section>
      <Btn>Button</Btn>
