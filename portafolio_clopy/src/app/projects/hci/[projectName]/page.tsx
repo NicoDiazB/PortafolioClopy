@@ -1,17 +1,11 @@
 
-import { Btn } from '@/components/Btn';
 import GalleryModal from '@/components/GalleryModal';
 import { projects } from '@/data/projects'
 import Link from 'next/link';
 import { notFound } from 'next/navigation'
 
-interface Props {
-  params: {
-    projectName: string
-  }
-}
 
-export default async function ProjectDetailPage({ params }: Props) {
+export default async function ProjectDetailPage ({ params }: { params: Promise<{ projectName: string }> }) {
     const { projectName } = await params;
     const project = projects.find(p => p.slug === projectName);
   
