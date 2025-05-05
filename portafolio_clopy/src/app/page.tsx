@@ -9,7 +9,6 @@ export default function Home() {
       <h1 className="font-bold text-2xl md:text-4xl ">hi, i am clopy</h1>
       <p className="text-lg text-center md:text-2xl  md:max-w-[1000px] leading-tight ">I am a multidisciplinary design researcher and artist navigating experiences, technology, and crafts. My creative process thrives on collaboration, using participatory methods to understand and address social and community needs, contributing to positive change.See my work below!</p>
      </section>
-     <Btn>Button</Btn>
 
      <section className="flex gap-10">
       {/* esto seria la section de los tipos de proyecto */}
