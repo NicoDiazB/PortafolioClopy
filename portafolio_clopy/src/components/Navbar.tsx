@@ -46,7 +46,7 @@ export const Navbar = () => {
             onClick={() => setIsOpen(!isOpen)}
             aria-label="Toggle menu"
           >
-            {isOpen ? "X" : "🍔"}
+            {isOpen ? <img className='absolute -top-1 left-1 ' src="/projects/hamburguesas-05.png" alt="Menu" width={70}/> : <img className='absolute top-0 left-0 ' src="/projects/hamburguesas-06.png" alt="Menu" width={70}/>}
           </button>
         </div>
 

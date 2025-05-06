@@ -13,7 +13,7 @@ export default async function ProjectDetailPage ({ params }: { params: Promise<{
 
   
     return (
-      <article className="flex flex-col pt-40  md:max-w-[1000px] mx-auto">
+      <article className="flex flex-col pt-40 px-8 md:max-w-[1000px] mx-auto ">
         <div className='mb-4'>
 
         <Link href="/projects/hci" className=" font-bold underline text-lg underline-offset-4 decoration-[1px] hover:decoration-[2px] hover:text-black mb-6 ">

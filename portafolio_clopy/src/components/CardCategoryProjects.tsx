@@ -4,7 +4,7 @@ import React from 'react'
 
 export const CardCategoryProjects: React.FC<CardProjectProps> = ({ title, imageUrl }) => {
   return (
-    <div className="relative w-full max-w-md h-90 rounded-lg overflow-hidden group cursor-pointer shadow-md">
+    <div className="relative w-full max-w-sm h-90 rounded-lg overflow-hidden group cursor-pointer shadow-md">
       <img
         src={imageUrl}
         alt={title}
