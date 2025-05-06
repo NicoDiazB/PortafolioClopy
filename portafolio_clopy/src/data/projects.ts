@@ -8,7 +8,7 @@ export const projects: Project[] =[
         title: 'Resonant Memories',
         subTittle: 'Textile Artist in Residence',
         banner: {url:'/projects/human-computer-interaction/resonant-memories/banner-resonantM.webp'},
-        introduction: `I am currently working as a textile artist for the Resonant Memories project, which is part of the <a href="https://ars.electronica.art/eudigitaldeal/en/" target="_blank" class=" font-bold underline">Digital Deal initiative</a>. This European co-funded project aims to bridge the digital divide between younger and older generations in Serbia. The residency is hosted by the <a href="https://ars.electronica.art/eudigitaldeal/en/residencies/resonant-memories-by-yulia-sion-nuno-n-correia-clopy-diaz-reyes/" target="_blank" class=" font-bold underline">Center for the Promotion of Science</a> and organised by Ars Electronica.`,
+        introduction: `I am currently working as a textile artist for the Resonant Memories project, which is part of the <a href="https://ars.electronica.art/eudigitaldeal/en/" target="_blank" class=" hover:text-[#4B70A6] font-bold underline">Digital Deal initiative</a>. This European co-funded project aims to bridge the digital divide between younger and older generations in Serbia. The residency is hosted by the <a href="https://ars.electronica.art/eudigitaldeal/en/residencies/resonant-memories-by-yulia-sion-nuno-n-correia-clopy-diaz-reyes/" target="_blank" class=" hover:text-[#4B70A6] font-bold underline">Center for the Promotion of Science</a> and organised by Ars Electronica.`,
         categories: ["hci", "textiles"],
 
         
@@ -16,9 +16,10 @@ export const projects: Project[] =[
       // textile projects
       {
         id: '9',
-        date: "2024",
+        date: "2022",
         slug: "dzeltenas-bernibas-magiskaja-vieta",
         title: 'Dzeltenās bērnības maģiskajā vietā',
+        subTittle: " By Claudia Diaz Reyes and Zane Shumeiko displays seven textile pieces with a sensorial  mix between digital and analogue author’s techniques 2022",
         cover: "/projects/textile/dzeltenas/cover-dzeltenas.webp",
         banner: {url:'/projects/textile/dzeltenas/banner-dzeltenas.webp'},
         introduction: `In the Magic Place of the Yellow (Sunny) Childhood is a collaborative textile work that explores themes of migration, memory, and identity. By merging traditional and digital techniques, including free-motion machine embroidery, weaving, 3D printing, and heat press, we created a series of pieces that reflect our personal journeys and shared experiences.`,
@@ -32,9 +33,10 @@ export const projects: Project[] =[
 
       {
         id: '10',
-        date: "2024",
+        date: "2018",
         slug: "degenerando-oficios",
         title: 'Degenerando Oficios',
+        subTittle: "Facilitated by Claudia Diaz Reyes and Emmanuel Cabrera’ collaboration. 2018",
         cover: "/projects/textile/degenerando/cover-degenerandoOficios.webp",
         banner: {url:'/projects/textile/degenerando/banner-degenerandoOficios.webp'},
         introduction: `This project embraced a bold vision: challenging traditional masculinity through the practice of knitting. In Cali, Colombia, we brought together a group of men to create a vibrant community focused on creativity, togetherness, and personal growth.`,
@@ -71,6 +73,7 @@ export const projects: Project[] =[
         <strong>Focus on User Value:</strong><br />
         This project aimed to make the 'Why Estonia' page more attractive by prioritising user needs. My focus on communication and user persona development ensured we gathered and integrated valuable insights from entrepreneurs. This user-centric approach was crucial in creating a website experience that resonates with potential founders, ultimately attracting them to consider Estonia as their startup hub.
         <br />`,
+        video:"https://www.youtube.com/embed/D6yHWrU9EA8?si=terHhV-jHlAimE3p",
         gallery: [{imageUrl: "/projects/human-computer-interaction/startupEstonia/galery-startupEstonia.webp", title: "", description: ""},{imageUrl: "/projects/human-computer-interaction/startupEstonia/galery-startupEstonia2.webp", title: "Persons", description: "Results of the Foreing founder persona and a Local founder persona"},{imageUrl: "/projects/human-computer-interaction/startupEstonia/galery-startupEstonia3.webp", title: "List of Design Suggestions", description: "(Miro Board screenshots)"},{imageUrl: "/projects/human-computer-interaction/startupEstonia/galery-startupEstonia4.webp", title: "", description: ""}],
         categories: ["hci"],
       },

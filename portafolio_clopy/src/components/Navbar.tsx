@@ -32,9 +32,9 @@ export const Navbar = () => {
       <div className="w-full items-center">
         <div className="flex items-center h-16 justify-between">
           <div className="hidden md:flex items-center gap-20 md:text-2xl">
-            <Link href="/" className={linkClasses('/')}>WORK</Link>
-            <Link href="/projects/hci" className={linkClasses('/projects/hci')}>HIC PROJECTS</Link>
-            <Link href="/projects/textiles" className={linkClasses('/projects/textiles')}>TEXTILE PROJECT</Link>
+            <Link href="/" className={linkClasses('/')}>HOME</Link>
+            <Link href="/projects/hci" className={linkClasses('/projects/hci')}>HCI PROJECTS</Link>
+            <Link href="/projects/textiles" className={linkClasses('/projects/textiles')}>TEXTILE PROJECTS</Link>
             <Link href="/contact-me" className={linkClasses('/contact-me')}>CONTACT</Link>
             <a href='https://docs.google.com/document/d/149Ehni8C9ZHilrNiPKCl9Q41MMyBbDRIrnHz4oZMqFw/edit?tab=t.0' target='_blank' className="font-normal">
               CV
@@ -53,9 +53,9 @@ export const Navbar = () => {
         {isOpen && (
           <div className="md:hidden pb-4">
             <div className="flex flex-col space-y-2 text-xl">
-              <Link href="/" className={linkClasses('/')}>WORK</Link>
-              <Link href="/projects/hci" className={linkClasses('/projects/hci')}>HIC PROJECTS</Link>
-              <Link href="/projects/textiles" className={linkClasses('/projects/textiles')}>TEXTILE PROJECT</Link>
+              <Link href="/" className={linkClasses('/')}>HOME</Link>
+              <Link href="/projects/hci" className={linkClasses('/projects/hci')}>HCI PROJECTS</Link>
+              <Link href="/projects/textiles" className={linkClasses('/projects/textiles')}>TEXTILE PROJECTS</Link>
               <Link href="/contact-me" className={linkClasses('/contact-me')}>CONTACT</Link>
               <a href='https://docs.google.com/document/d/149Ehni8C9ZHilrNiPKCl9Q41MMyBbDRIrnHz4oZMqFw/edit?tab=t.0' target='_blank' className="font-normal">
                 CV
