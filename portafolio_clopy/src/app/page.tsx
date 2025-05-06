@@ -1,4 +1,3 @@
-import { Btn } from "@/components/Btn";
 import { CardCategoryProjects } from "@/components/CardCategoryProjects";
 import Link from "next/link";
 
