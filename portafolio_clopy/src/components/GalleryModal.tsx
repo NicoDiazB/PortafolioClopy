@@ -57,7 +57,7 @@ export default function GalleryModal({ gallery }: Props) {
               src={selectedImage.imageUrl}
               alt={selectedImage.title || 'Untitled'}
               loading='lazy'
-              className=" w-full max-h-[80vh] object-contain rounded-lg mb-4 "
+              className=" w-full max-h-[80vh] scale-150 object-contain rounded-lg mb-4 "
             />
           </div>
         </div>
