@@ -1,6 +1,5 @@
 import { ProjectsSection } from '@/components/ProjectsSection'
 import { projects } from '@/data/projects'
-import Link from 'next/link'
 import React from 'react'
 
 
