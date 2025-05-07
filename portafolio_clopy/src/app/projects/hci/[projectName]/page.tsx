@@ -13,7 +13,7 @@ export default async function ProjectDetailPage ({ params }: { params: Promise<{
 
   
     return (
-      <article className="flex flex-col pt-40 px-8 md:max-w-[1000px] mx-auto ">
+      <article className="flex flex-col pt-40 px-6 md:max-w-[1000px] mx-auto ">
         <div className='mb-4'>
 
         <Link href="/projects/hci" className=" font-bold underline text-lg underline-offset-4 decoration-[2px] hover:text-[#4B70A6] mb-6 ">
@@ -27,7 +27,7 @@ export default async function ProjectDetailPage ({ params }: { params: Promise<{
         <img src={project.banner.url} alt={project.title} className=" max-h-[800px] rounded-xl" />
         <p className='text-lg text-center mb-6 text-gray-700'>{project.banner.subtitle}</p>
         </div>
-        <p className="mb-6 text-lg" dangerouslySetInnerHTML={{ __html: project.introduction }}/>
+        <p className="mb-6 text-lg leading-tight text-pretty" dangerouslySetInnerHTML={{ __html: project.introduction }}/>
       
 
         {/* render de imagen */}
@@ -40,8 +40,7 @@ export default async function ProjectDetailPage ({ params }: { params: Promise<{
         {project.video && (
           <div className="mb-6 w-full max-w-3xl">
             <iframe
-              width="100%"
-              height="315"
+              className='rounded-xl w-full min-h-[250px] md:h-[450px]'
               src={project.video}
               title="YouTube video player"
               allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
@@ -50,10 +49,16 @@ export default async function ProjectDetailPage ({ params }: { params: Promise<{
             <p className='text-center text-lg'>For a more immersive experience, check out the video!</p>
           </div>
         )}
-        <p className='mb-6 text-xl text-pretty'dangerouslySetInnerHTML={{ __html: project.information? project.information: "" }} />
+        <p className='mb-6 text-xl text-pretty leading-tight'dangerouslySetInnerHTML={{ __html: project.information? project.information: "" }} />
          {/* gallery component */}
       {project.gallery && project.gallery.length > 0 && (
         <GalleryModal gallery={project.gallery} />
+      )}
+      {project.lastBanner && (
+        <div>
+          <img src={project.lastBanner} alt={project.title} className=" rounded-xl" />
+        </div>
+
       )}
       {/* otra infromacion */}
        <p className='mb-6 text-xl text-pretty'dangerouslySetInnerHTML={{ __html: project.otherimfortmation? project.otherimfortmation: "" }} />

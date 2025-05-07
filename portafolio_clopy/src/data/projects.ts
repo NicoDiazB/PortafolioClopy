@@ -75,6 +75,8 @@ export const projects: Project[] =[
         <br />`,
         video:"https://www.youtube.com/embed/D6yHWrU9EA8?si=terHhV-jHlAimE3p",
         gallery: [{imageUrl: "/projects/human-computer-interaction/startupEstonia/galery-startupEstonia.webp", title: "", description: ""},{imageUrl: "/projects/human-computer-interaction/startupEstonia/galery-startupEstonia2.webp", title: "Persons", description: "Results of the Foreing founder persona and a Local founder persona"},{imageUrl: "/projects/human-computer-interaction/startupEstonia/galery-startupEstonia3.webp", title: "List of Design Suggestions", description: "(Miro Board screenshots)"},{imageUrl: "/projects/human-computer-interaction/startupEstonia/galery-startupEstonia4.webp", title: "", description: ""}],
+        lastBanner: "/projects/human-computer-interaction/startupEstonia/last-banner-startupEstonia.webp",
+
         categories: ["hci"],
       },
 

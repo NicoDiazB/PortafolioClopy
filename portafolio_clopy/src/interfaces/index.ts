@@ -37,8 +37,9 @@ export interface Project{
   imageInformation?: string
   video?: string
   gallery?: Gallery[]
+  lastBanner?: string
   otherimfortmation?: string
-  categories: string[];
+  categories: string[]
 }
 
 export interface ProjectsSectionProps {
