@@ -19,13 +19,13 @@ export const projects: Project[] =[
         date: "2022",
         slug: "dzeltenas-bernibas-magiskaja-vieta",
         title: 'Dzeltenās bērnības maģiskajā vietā',
-        subTittle: " By Claudia Diaz Reyes and Zane Shumeiko displays seven textile pieces with a sensorial  mix between digital and analogue author’s techniques 2022",
         cover: "/projects/textile/dzeltenas/cover-dzeltenas.webp",
         banner: {url:'/projects/textile/dzeltenas/banner-dzeltenas.webp'},
         introduction: `In the Magic Place of the Yellow (Sunny) Childhood is a collaborative textile work that explores themes of migration, memory, and identity. By merging traditional and digital techniques, including free-motion machine embroidery, weaving, 3D printing, and heat press, we created a series of pieces that reflect our personal journeys and shared experiences.`,
         information:`Drawing inspiration from our childhoods, we delved into personal histories and experimented with new artistic processes. The resulting works are a testament to the power of collaboration, blending diverse cultural backgrounds and artistic perspectives. Through experimentation and the embrace of unexpected outcomes, we created a visual language that speaks to the complexity of the human experience.<br /><br /><br />
         The project culminated in “Eluoluline” exhibition, organised by the Estonian Textile Artists’ Association in Tartu, December 2022.`,
         gallery:[{imageUrl: "/projects/textile/dzeltenas/galery-dzeltenas.webp", title: "", description: ""},{imageUrl: "/projects/textile/dzeltenas/galery-dzeltenas2.webp", title: "", description: ""},{imageUrl: "/projects/textile/dzeltenas/galery-dzeltenas3.webp", title: "", description: ""},{imageUrl: "/projects/textile/dzeltenas/galery-dzeltenas4.webp", title: "", description: ""},{imageUrl: "/projects/textile/dzeltenas/galery-dzeltenas5.webp", title: "", description: ""}],
+        otherimfortmation: " By Claudia Diaz Reyes and Zane Shumeiko displays seven textile pieces with a sensorial  mix between digital and analogue author’s techniques 2022",
         categories: ["textiles"],
 
         
@@ -36,16 +36,16 @@ export const projects: Project[] =[
         date: "2018",
         slug: "degenerando-oficios",
         title: 'Degenerando Oficios',
-        subTittle: "Facilitated by Claudia Diaz Reyes and Emmanuel Cabrera’ collaboration. 2018",
         cover: "/projects/textile/degenerando/cover-degenerandoOficios.webp",
         banner: {url:'/projects/textile/degenerando/banner-degenerandoOficios.webp'},
         introduction: `This project embraced a bold vision: challenging traditional masculinity through the practice of knitting. In Cali, Colombia, we brought together a group of men to create a vibrant community focused on creativity, togetherness, and personal growth.`,
         information:`Spearheading the project, I facilitated our knitting circle, which became a space for exploration, allowing participants to challenge societal norms and uncover hidden talents. The experience encouraged a strong sense of belonging, with members sharing stories, laughter, and mutual support.<br /><br />
-       The project’s impact extended beyond our group. One participant’s knitted process became an artwork showcased in a prestigious master’s program exhibition in Germany. At the same time, another’s inspiring journey was featured in a local magazine, sparking broader interest and conversation about the project.<br /><br />
-       This initiative highlighted knitting’s power as a personal transformation and community-building catalyst. Challenging stereotypes and celebrating diversity created a positive and inspiring experience for all involved.
-       
-       `,
+        The project’s impact extended beyond our group. One participant’s knitted process became an artwork showcased in a prestigious master’s program exhibition in Germany. At the same time, another’s inspiring journey was featured in a local magazine, sparking broader interest and conversation about the project.<br /><br />
+        This initiative highlighted knitting’s power as a personal transformation and community-building catalyst. Challenging stereotypes and celebrating diversity created a positive and inspiring experience for all involved.
+        
+        `,
         gallery:[{imageUrl: "/projects/textile/degenerando/galery-degenerandoOficios.webp"},{imageUrl: "/projects/textile/degenerando/galery-degenerandoOficios2.webp"},{imageUrl: "/projects/textile/degenerando/galery-degenerandoOficios3.webp"},{imageUrl: "/projects/textile/degenerando/galery-degenerandoOficios4.webp"},{imageUrl: "/projects/textile/degenerando/galery-degenerandoOficios5.webp"}],
+        otherimfortmation: "Facilitated by Claudia Diaz Reyes and Emmanuel Cabrera’ collaboration. 2018",
         categories: ["textiles"],
 
         

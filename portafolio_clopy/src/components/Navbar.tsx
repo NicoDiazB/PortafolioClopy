@@ -25,18 +25,18 @@ export const Navbar = () => {
   }
 
   const linkClasses = (href: string) =>
-    `${isActive(href) ? 'font-bold' : 'font-normal'} transition-all duration-150`
+    `${isActive(href) ? 'text-[#d86c49] font-bold border-b-2 border-dashed' : 'font-bold'} w-fit hover:text-[#4B70A6]  transition-all duration-150 flex items-center justify-center leading-none`
 
   return (
     <nav className={`backdrop-blur-lg fixed flex items-center w-full px-8 bg-opacity-90 z-50 md:h-24 md:px-24 transition-transform duration-300 ${visible ? 'translate-y-0' : '-translate-y-full'}`}>
       <div className="w-full items-center">
         <div className="flex items-center h-16 justify-between">
-          <div className="hidden md:flex items-center gap-20 md:text-2xl">
+          <div className="hidden md:flex items-center gap-12 md:text-2xl ">
             <Link href="/" className={linkClasses('/')}>HOME</Link>
             <Link href="/projects/hci" className={linkClasses('/projects/hci')}>HCI PROJECTS</Link>
             <Link href="/projects/textiles" className={linkClasses('/projects/textiles')}>TEXTILE PROJECTS</Link>
             <Link href="/contact-me" className={linkClasses('/contact-me')}>CONTACT</Link>
-            <a href='https://docs.google.com/document/d/149Ehni8C9ZHilrNiPKCl9Q41MMyBbDRIrnHz4oZMqFw/edit?tab=t.0' target='_blank' className="font-normal">
+            <a href='https://docs.google.com/document/d/149Ehni8C9ZHilrNiPKCl9Q41MMyBbDRIrnHz4oZMqFw/edit?tab=t.0' target='_blank' className="font-bold hover:text-[#4B70A6] pt-1 px-2 transition-all duration-150 flex items-center justify-center leading-none">
               CV
             </a>
           </div>
@@ -57,7 +57,7 @@ export const Navbar = () => {
               <Link href="/projects/hci" className={linkClasses('/projects/hci')}>HCI PROJECTS</Link>
               <Link href="/projects/textiles" className={linkClasses('/projects/textiles')}>TEXTILE PROJECTS</Link>
               <Link href="/contact-me" className={linkClasses('/contact-me')}>CONTACT</Link>
-              <a href='https://docs.google.com/document/d/149Ehni8C9ZHilrNiPKCl9Q41MMyBbDRIrnHz4oZMqFw/edit?tab=t.0' target='_blank' className="font-normal">
+              <a href='https://docs.google.com/document/d/149Ehni8C9ZHilrNiPKCl9Q41MMyBbDRIrnHz4oZMqFw/edit?tab=t.0' target='_blank' className="font-bold">
                 CV
               </a>
             </div>

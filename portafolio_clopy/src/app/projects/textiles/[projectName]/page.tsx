@@ -16,7 +16,7 @@ export default async function ProjectDetailPage ({ params }: { params: Promise<{
       <article className="flex flex-col pt-40  px-8 md:max-w-[1000px] mx-auto">
         <div className='mb-4'>
 
-        <Link href="/projects/textiles" className=" font-bold underline text-lg underline-offset-4 decoration-[1px] hover:decoration-[2px] hover:text-black mb-6 ">
+        <Link href="/projects/textiles" className=" font-bold underline text-lg underline-offset-4 decoration-[2px]  hover:text-[#4B70A6] mb-6 ">
             ← − −  Back to Textiles Projects
         </Link>
         </div>
@@ -57,22 +57,7 @@ export default async function ProjectDetailPage ({ params }: { params: Promise<{
       )}
       {/* otra infromacion */}
        <p className='mb-6 text-xl text-pretty'dangerouslySetInnerHTML={{ __html: project.otherimfortmation? project.otherimfortmation: "" }} />
-        {/* {project.gallery && project.gallery.length > 0 && (
-          <div className="mb-6 flex flex-col items-center gap-6 ">
-            {project.gallery.map((image, index) => (
-                <div key={index} className="">
-                    <h3 className='font-semibold text-xl text-center'>{image.title}</h3>
-                    <p className='text-lg text-center'>{image.description}</p> 
-                    <img
-                    key={index}
-                    src={image.imageUrl}
-                    alt={`${image.title} ${index + 1}`}
-                    className="w-full h-auto rounded-lg cursor-pointer hover:brightness-90 transition"
-                    />
-                </div>
-            ))}
-          </div>
-        )} */}
+       
         {/* boton para subir el scroll */}
        
         </section>
