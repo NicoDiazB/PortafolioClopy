@@ -1,3 +1,5 @@
+import { ReactNode } from "react"
+
  export interface ButtonProps {
     children: React.ReactNode
     onClick?: () => void
@@ -49,4 +51,24 @@ export interface ProjectsSectionProps {
     type: string
 
 
+}
+
+export interface IInputProps {
+    value: string;
+    onChange: (event: React.ChangeEvent<HTMLInputElement|  HTMLTextAreaElement> ) => void;
+    placeholder?: string;
+    labelData: ReactNode;
+    idInput: string;
+    name: string;
+    type: string;
+    icon?: ReactNode;
+    as?: 'input' | 'textarea';
+}
+
+
+export interface FormContactProps {
+  name: string;
+  email: string;
+  message: string;
+  privacyPolicy: boolean;
 }
