@@ -39,7 +39,7 @@ export interface Project{
   imageInformation?: string
   video?: string
   gallery?: Gallery[]
-  lastBanner?: string
+  lastBanner?: string[]
   otherimfortmation?: string
   categories: string[]
 }

@@ -54,11 +54,22 @@ export default async function ProjectDetailPage ({ params }: { params: Promise<{
       {project.gallery && project.gallery.length > 0 && (
         <GalleryModal gallery={project.gallery} />
       )}
-      {project.lastBanner && (
-        <div>
-          <img src={project.lastBanner} alt={project.title} className=" rounded-xl" />
+      {project.lastBanner && project.lastBanner.length > 0 && (
+        <div className='flex w-full justify-center items-center  md:justify-evenly  flex-col md:flex-row '>
+          {project.lastBanner.map((banner, index) => (
+            <figure key={index} className='flex '>
+             <img
+          src={banner}
+          alt={project.title}
+          className={
+            project.lastBanner && project.lastBanner.length > 1
+              ? "rounded-xl max-w-[200px] "
+              : "rounded-xl w-full  "
+          }
+        />
+            </figure>
+          ))}
         </div>
-
       )}
       {/* otra infromacion */}
        <p className='mb-6 text-xl text-pretty'dangerouslySetInnerHTML={{ __html: project.otherimfortmation? project.otherimfortmation: "" }} />

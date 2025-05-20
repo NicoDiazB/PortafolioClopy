@@ -25,7 +25,7 @@ export const projects: Project[] =[
         information:`Drawing inspiration from our childhoods, we delved into personal histories and experimented with new artistic processes. The resulting works are a testament to the power of collaboration, blending diverse cultural backgrounds and artistic perspectives. Through experimentation and the embrace of unexpected outcomes, we created a visual language that speaks to the complexity of the human experience.<br /><br /><br />
         The project culminated in “Eluoluline” exhibition, organised by the Estonian Textile Artists’ Association in Tartu, December 2022.`,
         gallery:[{imageUrl: "/projects/textile/dzeltenas/galery-dzeltenas.webp", title: "", description: ""},{imageUrl: "/projects/textile/dzeltenas/galery-dzeltenas2.webp", title: "", description: ""},{imageUrl: "/projects/textile/dzeltenas/galery-dzeltenas3.webp", title: "", description: ""},{imageUrl: "/projects/textile/dzeltenas/galery-dzeltenas4.webp", title: "", description: ""},{imageUrl: "/projects/textile/dzeltenas/galery-dzeltenas5.webp", title: "", description: ""},{imageUrl: "/projects/textile/dzeltenas/galery-dzeltenas6.webp", title: "", description: ""}],
-        otherimfortmation: " By Claudia Diaz Reyes and Zane Shumeiko displays seven textile pieces with a sensorial  mix between digital and analogue author’s techniques 2022",
+        otherimfortmation: "Displays seven textile pieces with a sensorial  mix between digital and analogue author’s techniques 2022. By Claudia Diaz Reyes and Zane Shumeiko",
         categories: ["textiles"],
 
         
@@ -75,7 +75,7 @@ export const projects: Project[] =[
         <br />`,
         video:"https://www.youtube.com/embed/D6yHWrU9EA8?si=terHhV-jHlAimE3p",
         gallery: [{imageUrl: "/projects/human-computer-interaction/startupEstonia/galery-startupEstonia.webp", title: "", description: ""},{imageUrl: "/projects/human-computer-interaction/startupEstonia/galery-startupEstonia2.webp", title: "Persons", description: "Results of the Foreing founder persona and a Local founder persona"},{imageUrl: "/projects/human-computer-interaction/startupEstonia/galery-startupEstonia3.webp", title: "List of Design Suggestions", description: "(Miro Board screenshots)"},{imageUrl: "/projects/human-computer-interaction/startupEstonia/galery-startupEstonia4.webp", title: "", description: ""}],
-        lastBanner: "/projects/human-computer-interaction/startupEstonia/last-banner-startupEstonia.webp",
+        lastBanner: ["/projects/human-computer-interaction/startupEstonia/last-banner-startupEstonia.webp"],
 
         categories: ["hci"],
       },
@@ -158,7 +158,7 @@ export const projects: Project[] =[
         The project's vision is to develop an algae-based transdermal patch that delivers essential nutrients, freeing humans from the routine of eating for basic needs. This approach could also contribute to reducing food waste and environmental impact.<br /><br />
         Overall, the project explored the potential of algae as a future food source and applied bio-design principles in product development. Through my role, I gained valuable experience in research and speculative design.
         `,
-        gallery:[{imageUrl:"/projects/human-computer-interaction/power-a/galery-powerA.webp"},{imageUrl:"/projects/human-computer-interaction/power-a/galery-powerA2.webp"},],
+        lastBanner:["/projects/human-computer-interaction/power-a/galery-powerA.webp","/projects/human-computer-interaction/power-a/galery-powerA2.webp",],
         categories: ["hci"],
       },
       {
