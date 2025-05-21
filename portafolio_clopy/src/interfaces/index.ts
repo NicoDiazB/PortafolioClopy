@@ -12,6 +12,7 @@ import { ReactNode } from "react"
     title: string
     imageUrl: string
     date?: string
+    p?: string
   }
 
  export interface Gallery{

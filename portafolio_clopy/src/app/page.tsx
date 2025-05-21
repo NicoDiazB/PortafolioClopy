@@ -9,16 +9,16 @@ export default function Home() {
       <p className="text-lg text-center px-4 md:text-2xl  md:max-w-[1000px] leading-tight ">I am a multidisciplinary design researcher and artist navigating experiences, technology, and crafts. My creative process thrives on collaboration, using participatory methods to understand and address social and community needs, contributing to positive change.See my work below!</p>
      </section>
 
-     <section className="flex gap-10 flex-col md:flex-row ">
+     <section className="flex gap-10 flex-col md:flex-row px-8 ">
       {/* esto seria la section de los tipos de proyecto */}
 
       <Link href={"/projects/hci"}>
       
-        <CardCategoryProjects title="HUMAN-COMPUTER INTERACTION" imageUrl="/projects/human-computer-interaction/cover-HCI.webp"/>
+        <CardCategoryProjects title="HUMAN-COMPUTER INTERACTION" imageUrl="/projects/human-computer-interaction/cover-HCI.webp" p="Explore HCI projects"/>
       </Link>
       <Link href={"/projects/textiles"}>
       
-        <CardCategoryProjects title="TEXTILE" imageUrl="/projects/textile/cover-textile.webp"/>
+        <CardCategoryProjects title="TEXTILE" imageUrl="/projects/textile/cover-textile.webp" p="Explore Textile projects"/>
       </Link>
      </section>
   

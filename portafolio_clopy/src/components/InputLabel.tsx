@@ -21,7 +21,7 @@ const InputLabel: React.FC<IInputProps> = ({
             </label>
             {as === "textarea" ? (
         <textarea
-          className="max-w-[250px] md:max-w-none md:min-w-[350px] border-2 border-dashed rounded-md p-2 focus:outline-none hover:border-[#4B70A6] focus:border-[#d86c49]"
+          className="bg-[#f1ece5]  max-w-[250px] md:max-w-none md:min-w-[350px] border-2 border-dashed rounded-md p-2 focus:outline-none border-[#4B70A6] focus:border-[#d86c49]"
           id={idInput}
           name={name}
           value={value}
@@ -31,7 +31,7 @@ const InputLabel: React.FC<IInputProps> = ({
         />
       ) : (
         <input
-          className="md:min-w-[350px] border-2 border-dashed rounded-md p-2 focus:outline-none hover:border-[#4B70A6] focus:border-[#d86c49]"
+          className="bg-[#f1ece5] md:min-w-[350px] border-2 border-dashed rounded-md p-2 focus:outline-none border-[#4B70A6] focus:border-[#d86c49]"
           id={idInput}
           name={name}
           type={type}

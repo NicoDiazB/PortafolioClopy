@@ -109,7 +109,7 @@ export const FormContact: React.FC = () => {
        <InputLabel  labelData="Message"
                 name="message"
                 idInput="message"
-                placeholder="Anything you want to say"
+                placeholder="Type your message"
                 type="text"
                 value={formData.message}
                 onChange={handleChange}
@@ -142,7 +142,7 @@ export const FormContact: React.FC = () => {
                 )}
             </div>
             <button className={`
-        w-fit bg-[#E2DFCF] text-black rounded-xl py-2 px-4 font-bold
+        w-fit bg-[#E2DFCF] text-black rounded-3xl py-2 px-6 font-bold
         outline-2 outline-dashed outline-offset-[-4px] outline-[#4B70A6]
         active:scale-95 active:shadow-[inset_0_0_8px_rgba(0,0,0,0.40)]
         hover:bg-[#d86c49] hover:text-white hover:outline-[#FFFEFB]
