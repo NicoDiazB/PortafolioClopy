@@ -28,7 +28,8 @@ export const Navbar = () => {
     `${isActive(href) ? 'text-[#d86c49] font-bold border-b-2 border-dashed' : 'font-bold'} w-fit hover:text-[#4B70A6]  transition-all duration-150 flex items-center justify-center leading-none`
 
   return (
-    <nav className={`backdrop-blur-lg fixed flex items-center w-full px-8 bg-opacity-90 z-50 md:h-24 md:px-24 transition-transform duration-300 ${visible ? 'translate-y-0' : '-translate-y-full'}`}>
+    pathname === "/" ? null : (
+      <nav className={`backdrop-blur-lg fixed flex items-center w-full px-8 bg-opacity-90 z-50 md:h-24 md:px-24 transition-transform duration-300 ${visible ? 'translate-y-0' : '-translate-y-full'}`}>
       <div className="w-full items-center">
         <div className="flex items-center h-16 justify-between">
           <div className="hidden md:flex items-center gap-12 md:text-2xl ">
@@ -45,7 +46,7 @@ export const Navbar = () => {
             className="md:hidden"
             onClick={() => setIsOpen(!isOpen)}
             aria-label="Toggle menu"
-          >
+            >
             {isOpen ? <img className='absolute -top-1 left-1 ' src="/projects/hamburguesas-05.png" alt="Menu" width={70}/> : <img className='absolute top-0 left-0 ' src="/projects/hamburguesas-06.png" alt="Menu" width={70}/>}
           </button>
         </div>
@@ -65,5 +66,6 @@ export const Navbar = () => {
         )}
       </div>
     </nav>
+    )
   )
 }

@@ -23,7 +23,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={lekton.className}>
-      <body className="bg-[#fff8ed] bg-[url('/bg-texture(1).jpg')] bg-repeat bg-[length:1000px_1000px]">
+      <body className="bg-[#fff8ed] bg-[url('/bg-texture(1).jpg')] bg-repeat bg-[length:1000px_1000px] min-h-dvh flex flex-col justify-between">
         <Navbar/>
         {children}
         <Footer/>
