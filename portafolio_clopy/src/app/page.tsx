@@ -35,7 +35,7 @@ export default function Home() {
           outline-2 outline-dashed outline-offset-[-4px] outline-[#4B70A6]
           active:scale-95 active:shadow-[inset_0_0_8px_rgba(0,0,0,0.40)]
           hover:bg-[#d86c49] hover:text-white hover:outline-[#FFFEFB]
-          transition-all" href={"/"}>
+          transition-all" href={"/exhibition"}>
           Exhibition
         </Link>
         <Link className=" bg-[#E2DFCF] min-w-[100px] md:min-w-[120px] text-center text-black md:text-xl rounded-full py-3 px-2 font-bold
