@@ -22,7 +22,6 @@ export default function Home() {
           hover:bg-[#d86c49] hover:text-white hover:outline-[#FFFEFB]
           transition-all" href={"/projects/hci"}>
           HCI PROJECTS
-          {/* <CardCategoryProjects title="HUMAN-COMPUTER INTERACTION" imageUrl="/projects/human-computer-interaction/cover-HCI.webp" p="Explore HCI projects"/> */}
         </Link>
         <Link className=" bg-[#E2DFCF] min-w-[150px] md:min-w-[200px] text-center text-black md:text-xl rounded-full py-5 px-2 font-bold
           outline-2 outline-dashed outline-offset-[-4px] outline-[#4B70A6]
@@ -30,7 +29,6 @@ export default function Home() {
           hover:bg-[#d86c49] hover:text-white hover:outline-[#FFFEFB]
           transition-all" href={"/projects/textiles"}>
           TEXTILE PROJECTS
-          {/* <CardCategoryProjects title="TEXTILE" imageUrl="/projects/textile/cover-textile.webp" p="Explore Textile projects"/> */}
         </Link>
       </div>
 
@@ -41,20 +39,6 @@ export default function Home() {
         <Link className=" font-bold min-w-[100px] md:min-w-[120px] text-center  md:text-xl border-b-3 text-[#4B70A6] border-dashed hover:text-black" href={"/publications"}>
           Publications
         </Link>
-        {/* <Link className=" bg-[#E2DFCF] min-w-[100px] md:min-w-[120px] text-center text-black md:text-xl rounded-full py-3 px-2  font-bold
-          outline-2 outline-dashed outline-offset-[-4px] outline-[#4B70A6]
-          active:scale-95 active:shadow-[inset_0_0_8px_rgba(0,0,0,0.40)]
-          hover:bg-[#d86c49] hover:text-white hover:outline-[#FFFEFB]
-          transition-all" href={"/contact-me"}>
-          Contact Me
-        </Link>
-        <Link className=" bg-[#E2DFCF] min-w-[100px] md:min-w-[120px] text-center text-black md:text-xl rounded-full py-3 px-2 font-bold
-          outline-2 outline-dashed outline-offset-[-4px] outline-[#4B70A6]
-          active:scale-95 active:shadow-[inset_0_0_8px_rgba(0,0,0,0.40)]
-          hover:bg-[#d86c49] hover:text-white hover:outline-[#FFFEFB]
-          transition-all" href={"https://docs.google.com/document/d/149Ehni8C9ZHilrNiPKCl9Q41MMyBbDRIrnHz4oZMqFw/edit?tab=t.0"} target="_blank">
-          CV
-        </Link> */}
 
       </div>
      </section>

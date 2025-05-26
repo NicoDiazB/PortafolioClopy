@@ -27,7 +27,7 @@ export default async function ProjectDetailPage ({ params }: { params: Promise<{
         <img src={project.banner.url} alt={project.title} className=" max-h-[800px] rounded-xl" />
         <p className='text-lg text-center mb-6 text-gray-700'>{project.banner.subtitle}</p>
         </div>
-        <p className="mb-6 text-lg leading-tight text-pretty" dangerouslySetInnerHTML={{ __html: project.introduction }}/>
+        <p className="mb-6 md:text-xl leading-tight text-pretty" dangerouslySetInnerHTML={{ __html: project.introduction }}/>
       
 
         {/* render de imagen */}
@@ -49,7 +49,7 @@ export default async function ProjectDetailPage ({ params }: { params: Promise<{
             <p className='text-center text-lg'>For a more immersive experience, check out the video!</p>
           </div>
         )}
-        <p className='mb-6 text-xl text-pretty leading-tight'dangerouslySetInnerHTML={{ __html: project.information? project.information: "" }} />
+        <p className='mb-6 md:text-xl text-pretty leading-tight'dangerouslySetInnerHTML={{ __html: project.information? project.information: "" }} />
          {/* gallery component */}
       {project.gallery && project.gallery.length > 0 && (
         <GalleryModal gallery={project.gallery} />

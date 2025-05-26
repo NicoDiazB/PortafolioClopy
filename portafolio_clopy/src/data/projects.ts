@@ -1,6 +1,35 @@
 import { Project } from "@/interfaces";
 
 export const projects: Project[] =[
+    // {
+    //     id: '0',
+    //     date: "2025",
+    //     slug: "sensing-connections",
+    //     title: 'Sensing Connections',
+    //     subTittle: 'An interactive textile installation by Claudia Diaz Reyes & Slobodan Vračarević',
+    //     banner: {url:'/projects/human-computer-interaction/resonant-memories/banner-resonantM.webp'},
+    //     introduction: `
+    //     Where does a gesture go once it’s made? <br />
+    //     A thread cast forward. A light that answers.
+    //     Needles touch, and something shifts—quietly, rhythmically.
+    //     `,
+    //     information:`This piece began among stories shared in motion—knitting beside older generations in Serbia, where hands moved as much as voices. Some stitches carried memory, others simply held the moment. What stayed was the feeling of something passed on, not in words, but in gestures that returned. <br /><br />
+    //     Now, this act continues. <br />
+    //     Four pairs of connected needles rest before you. As you move them, lights respond—each rhythm shaping a brightness, each pause held in glow. Your touch joins what is already becoming.
+    //     Not alone, not entirely together—somewhere in between.<br /><br />
+    //     You don’t need to know how to knit. <br />
+    //     You don’t need to understand what happens. <br />
+    //     Just begin, and notice what meets you.<br /><br />
+
+    //     This work brings traces from an earlier participatory process—Resonant Memories—created in collaboration with Nuno Correia and Yulia Sion during a European Digital Deal residency, supported by the Creative Europe Culture programme. From those beginnings, the piece took its own path. It continued to evolve during a residency at Cittadellarte – Fondazione Pistoletto (UNIDEE), where gestures took on structure, and touch became a way of asking. <br /><br />
+
+    //     I move with this piece as it moves with others—holding the frame, shaping the interaction, and listening for what emerges through the hands. <br /><br />
+    //     `,
+
+    //     categories: ["hci", "textiles"],
+    // },
+
+
     {
         id: '1',
         date: "2024",
@@ -90,7 +119,7 @@ export const projects: Project[] =[
         subTittle: "Inclusive Citizenship in a World in Transformation: Co-Designing for Democracy",
         banner: {url:'/projects/human-computer-interaction/incite-dem/banner-incitedem.webp'},
         cover: "/projects/human-computer-interaction/incite-dem/cover-incitedem.webp",
-        introduction: '<strong class=" text-2xl">INCITE-dem is an ongoing European co-funded project aiming to contribute uniquely to the future of democracy in Europe by harnessing historical quantitative and qualitative social science research, agent-based modelling, design thinking, and advanced analytical methods.</strong>',
+        introduction: '<strong class=" md:text-2xl">INCITE-dem is an ongoing European co-funded project aiming to contribute uniquely to the future of democracy in Europe by harnessing historical quantitative and qualitative social science research, agent-based modelling, design thinking, and advanced analytical methods.</strong>',
 
         information: `<button class="w-fit cursor-pointer bg-[#E2DFCF] text-black rounded-xl py-2 px-3 font-bold
         outline-2 outline-dashed outline-offset-[-4px] outline-[#4B70A6]
