@@ -11,7 +11,7 @@ export const Footer = () => {
         <p className="font-bold ">Clopy Diaz Reyes</p>
         <p className=' text-sm'>Textile artist & participatory designer Working with memory, relation, and tactile practices</p>
        
-        <p className=' text-sm'><Link className=' hover:text-[#4B70A6]' href='/'>clopy.co</Link> · <a className=' hover:text-[#4B70A6]' href=''>Contact email</a> · Based wherever hands are making</p>
+        <p className=' text-sm'><Link className=' hover:text-[#4B70A6]' href='/'>clopy.co</Link> · <a className=' hover:text-[#4B70A6]' href='mailto:claudia.diaz.dis@gmail.com'>Contact email</a> · Based wherever hands are making</p>
       </div>
 
       <div className='text-xs' >
