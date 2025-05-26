@@ -3,7 +3,7 @@ import React from 'react'
 function Publications() {
   return (
     <section className='pt-40 md:pt-60'>
-        <h1 className='text-2xl md:text-4xl font-bold text-center mb-6'>Publicaions</h1>
+        <h1 className='text-2xl md:text-4xl font-bold text-center mb-6'>Publications</h1>
         <ol className='text-start text-lg px-4 max-w-[1000px] font-mono mx-auto flex flex-col gap-8'>
             <li className='md:text-xl list-decimal leading-tight '>
                 Neves, I. R., Diaz Reyes, C., Pachi, I., Demir, A. D., & Kuusk, K. (2021). Creative exchange through joint responsibility: designing performances in multidisciplinary teams in the educational context. <em className='font-[italic]' >Research in Arts and Education</em>, 2021(1), 72–101. <a className=' underline text-[#4B70A6]' href="https://doi.org/10.54916/rae.119319">https://doi.org/10.54916/rae.119319</a>

@@ -36,7 +36,7 @@ export default function Home() {
 
       <div className="gap-4 md:gap-8 flex flex-wrap justify-center items-center ">
         <Link className=" font-bold min-w-[100px] md:min-w-[120px] text-center  md:text-xl border-b-3 text-[#4B70A6] border-dashed hover:text-black" href={"/exhibition"}>
-          Exhibition
+          Exhibitions
         </Link>
         <Link className=" font-bold min-w-[100px] md:min-w-[120px] text-center  md:text-xl border-b-3 text-[#4B70A6] border-dashed hover:text-black" href={"/publications"}>
           Publications
