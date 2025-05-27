@@ -4,8 +4,8 @@ export default function Home() {
   return (
     <main className="flex flex-col justify-center  items-center ">
       <section className="flex w-full justify-end pt-4 pr-2">
-        <Link className="font-bold min-w-[100px] md:min-w-[120px] text-center  md:text-xl hover:text-[#4B70A6]" href={"/contact-me"}> Curious? Let’s talk</Link>
-        <Link className="font-bold min-w-[100px] md:min-w-[120px] text-center  md:text-xl hover:text-[#4B70A6]" href={"/contact-me"}> CV</Link>
+        <Link className="font-bold min-w-[100px] md:min-w-[120px] text-center  md:text-xl text-[#4B70A6] border-b-3 border-dashed hover:text-black" href={"/contact-me"}> Curious? Let’s talk</Link>
+        <Link className="font-bold min-w-[100px] md:min-w-[120px] text-center  md:text-xl text-[#4B70A6] border-b-3 border-dashed hover:text-black" href={"/contact-me"}> CV</Link>
       </section>
      <section className="flex flex-col items-center md:max-w-[1000px] gap-4 mt-30  ">
       <h1 className="font-bold text-2xl  md:text-4xl ">Hi, i am Clopy</h1>
