@@ -63,6 +63,17 @@ export default async function ProjectDetailPage ({ params }: { params: Promise<{
         <section>
             {/* aqui va a haber cards de los otros proyectos */}
             <h2 className="text-2xl font-bold mb-4">Other Projects</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 w-full place-items-center lg:grid-cols-3 gap-6">
+              {projects.filter(p => p.slug !== projectName).slice(0, 3).map(p => (
+                <Link key={p.id} href={`/projects/${p.categories[0]}/${p.slug}`} className=" relative w-full max-w-xs h-80 rounded-lg overflow-hidden group cursor-pointer shadow-md">
+                  <img src={p.banner.url} alt={p.title} className="w-full h-full object-cover transition-opacity duration-300 group-hover:opacity-40" />
+                  <div className="absolute flex-col pt-8 inset-0 flex items-center justify-start opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <span className="text-black text-2xl font-bold drop-shadow-md text-center px-4">{p.title}</span>
+                    <span className="text-black text-xl font-bold drop-shadow-md text-center px-4">{p.date}</span>
+                  </div>
+                </Link>
+              ))}
+              </div>
         </section>
      
       </article>

@@ -36,7 +36,7 @@ export default function GalleryModal({ gallery }: Props) {
             <img
               src={image.imageUrl}
               alt={image.title || ''}
-              className={`rounded-xl object-cover cursor-zoom-in hover:brightness-75 transition duration-200 ${gallery.length > 4 ? 'w-[450px] h-[350px]' : 'w-full'}`}
+              className={`rounded-xl object-cover cursor-zoom-in hover:brightness-75  transition duration-200 ${gallery.length > 4 ? 'w-[450px] h-[225px] md:h-[350px]' : 'w-full'}`}
               onClick={() => openModal(image)}
             />
             <p className='text-center'>{image.context}</p>
@@ -49,7 +49,7 @@ export default function GalleryModal({ gallery }: Props) {
           <div className=" p-4 md:p-6 rounded  max-w-full w-[90%] md:max-w-2xl">
             <Btn
               onClick={closeModal}
-              className="absolute top-5 right-5 cursor-pointer px-4 text-[]"
+              className="absolute top-5 right-5 cursor-pointer px-4 "
             >
               X
             </Btn>
@@ -57,7 +57,7 @@ export default function GalleryModal({ gallery }: Props) {
               src={selectedImage.imageUrl}
               alt={selectedImage.title || 'Untitled'}
               loading='lazy'
-              className=" w-full max-h-[80vh] scale-150 object-contain rounded-lg mb-4 "
+              className=" w-full max-h-[50vh] md:max-h-[90vh] scale-150 object-contain rounded-lg mb-4 "
             />
           </div>
         </div>
