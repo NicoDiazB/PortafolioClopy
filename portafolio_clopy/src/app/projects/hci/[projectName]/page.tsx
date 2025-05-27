@@ -79,7 +79,7 @@ export default async function ProjectDetailPage ({ params }: { params: Promise<{
         </section>
         <section>
             {/* aqui va a haber cards de los otros proyectos */}
-            <h2 className="text-2xl font-bold mb-4">Otros Proyectos</h2>
+            <h2 className="text-2xl font-bold mb-4">Other Projects</h2>
         </section>
      
       </article>
