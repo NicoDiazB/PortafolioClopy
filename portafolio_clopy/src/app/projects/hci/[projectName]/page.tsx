@@ -36,6 +36,7 @@ export default async function ProjectDetailPage ({ params }: { params: Promise<{
             <img loading='lazy' className='rounded-xl' src={`${project.imageInformation}`} alt={`${project.title}`} />
           </div>
         )}
+        
         {/* redner de video */}
         {project.video && (
           <div className="mb-6 w-full max-w-3xl">

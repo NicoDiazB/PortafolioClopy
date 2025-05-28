@@ -1,6 +1,8 @@
 import { Project } from "@/interfaces";
 
 export const projects: Project[] =[
+
+  //! los proyectos estas acomodados por mas recientes a los mas antiguos
     // {
     //     id: '0',
     //     date: "2025",
@@ -25,7 +27,9 @@ export const projects: Project[] =[
 
     //     I move with this piece as it moves with others—holding the frame, shaping the interaction, and listening for what emerges through the hands. <br /><br />
     //     `,
-
+    //     otherimfortmation: `<ul> <h3 class="font-bold" >Guidelines:</h3> <li class="list-disc">Pick a question from the centre. Let it stay with you.<li/><li class="list-disc">Pick a question from the centre. Let it stay with you.<li/><li class="list-disc">Stay as long as you like.<li/> <li class="list-disc">If you want, write or record a reflection. Or just carry it with you.<li/> <ul/> <br /> <br /> <p class="font-bold" >What do you notice </p><p class="font-bold" >when your gesture meets another’s?
+    //     </p><p class="font-bold" >When light answers your rhythm?
+    //     </p><p class="font-bold" >What stays in the space </p><p class="font-bold" >between your hands and theirs?</p>`,
     //     categories: ["hci", "textiles"],
     // },
 
@@ -44,7 +48,7 @@ export const projects: Project[] =[
 
         
       },
-      // textile projects
+      //* textile projects
       {
         id: '9',
         date: "2022",
@@ -81,6 +85,7 @@ export const projects: Project[] =[
 
         
       },
+      //* end of textile projects
 
       {
         id: '2',
@@ -174,6 +179,42 @@ export const projects: Project[] =[
         categories: ["hci", "textiles"],
         
       },
+
+      // {
+      //    id: '11',
+      //   date: "2021",
+      //   slug: "absent-echoes",
+      //   title: "Absent Echoes",
+      //   banner: {url:'/projects/human-computer-interaction/vivistop/banner-vivistop.webp', subtitle:"Collaborative Installation | Vabaduse Väljak, Tallinn | July 2021"},
+      //   cover: "/projects/human-computer-interaction/vivistop/cover-vivistop.webp",
+
+      //   introduction: `<p> Absent Echoes is a public installation I co-developed in response to the 2021 Colombian national strike. The work emerged from a collective need to make visible the lives lost or went presumed missing during the protests—people whose names and stories risked being silenced. Rather than focusing solely on loss, our intention was to create a space for <strong>remembrance that invites connection, continuity, and care.</strong> <br /><br />
+      //   My role in the project centred on making the <strong>tangible, textile-based elements—a </strong>material language that could hold and express the emotional weight of collective memory, while remaining open and accessible. Textiles became a way to <strong> translate grief into presence</strong> and to invite others to engage physically and symbolically with the installation. <br /><br /> </p>
+        
+      //   <h3 class="text-2xl font-bold">Material as Memory</h3> <br /> <p>At the core of the installation was a simple gesture: we invited people to handwrite the names of those who had disappeared or been killed. These names were suspended on individual threads, which together formed a web anchored to a central table. The use of thread was intentional, not decorative, but meaningful. It became a <strong>material manifestation of connection</strong>, care, and the collective act of remembering.
+      //   </p><br/>
+      //   <p>A <strong>wicker basket filled with seeds</strong> sat at the centre of the table—an offering of life and renewal. The message we shared was: “One life taken, one life saved.” As a reminder that memory can be fertile ground for action, and that gestures of grief can also carry hope.</p> <br/> <br />
+
+      //   <h3 class="text-2xl font-bold">A Polyphonic Work</h3> <br /> <p>While the threads and names gave form to the installation, the piece was never about a single material or discipline. It was <strong>inherently polyphonic—made</strong> by voices, sounds, languages, and perspectives. Audio recordings mixed sounds from the Colombian protests with a shared phrase—"Nos están matando / We are getting killed"—repeated in Spanish, Estonian, English, and Russian. This multilingual layering reinforced the sense of transnational solidarity and made the violence harder to ignore.</p><br/>
+      //   <p>The piece was installed in <strong>Tallinn’s Freedom Square</strong>, a location tied to Estonia’s own struggles for independence. This setting offered a deeper resonance: a reminder that the pursuit of justice is not bounded by geography, and that shared memory can spark new forms of awareness and empathy.</p> <br /> <br />
+
+      //   <h3 class="text-2xl font-bold">Beyond the Square</h3> <br />
+      //   <p>We also shared the installation as an <strong>audiovisual piece online</strong >, allowing its message to extend beyond its physical form. This digital extension carried the work further, connecting with people who could not be physically present but who shared its concerns.</p><br/>
+      //   `,
+
+      //   video:"https://www.youtube.com/embed/znX0VetMgTQ?si=N6sX2vHuz9IKwOIy",
+
+      //   information:`<h3 class="text-2xl font-bold">Collaboration as Foundation</h3> <br />
+      //   <p>This project is ours. It was made possible through a network of collaborators who contributed in many ways—by offering their voices, editing, translating, showing up, or simply listening. Together, we co-created the work with Gabriel Solis, and we were supported by a wider circle including Kätlin Armei, Jaan Kadak, Sabina Triana, Juulia Mikson, Maria Rakitina, Carlos Lesmes, Daniel, Jose Aldemar Muñoz, and others who chose to remain unnamed.</p> <br />
+      //   <p>Togetherness created a space where materials, voices, and gestures could converge—not only to remember what was lost, but to <strong>imagine what can still be nurtured.</strong> </p><br/>
+        
+      //   `,
+      //   gallery:[{imageUrl:"/projects/human-computer-interaction/vivistop/galery-vivistop.webp", context:"1. Exploring the Outsite"},],
+
+      //   otherimfortmation: ``,
+      //   categories: ["hci"],
+      // },
+
       {
         id: '6',
         date: "2020",
@@ -252,5 +293,5 @@ export const projects: Project[] =[
         categories: ["hci"],
       },
 
-
+      
 ]
