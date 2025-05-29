@@ -222,7 +222,7 @@ export const projects: Project[] =[
         gallery:[{imageUrl:"/projects/human-computer-interaction/absent-echoes/galery-absent-echoes3.webp" },{imageUrl:"/projects/human-computer-interaction/absent-echoes/galery-absent-echoes2.webp" }, ],
 
         otherimfortmation: ``,
-        categories: ["hci"],
+        categories: ["textiles"],
       },
 
       {
