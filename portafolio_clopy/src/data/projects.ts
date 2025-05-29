@@ -15,31 +15,32 @@ export const projects: Project[] =[
         A thread cast forward. A light that answers.
         Needles touch, and something shifts—quietly, rhythmically.
         `,
-        information:`
-        This piece began among stories shared in motion—knitting beside older generations in Serbia, where hands moved as much as voices. Some stitches carried memory, others simply held the moment. What stayed was the feeling of something passed on, not in words, but in gestures that returned. <br /><br />
-        Now, this act continues. <br />
-        Four pairs of connected needles rest before you. As you move them, lights respond—each rhythm shaping a brightness, each pause held in glow. Your touch joins what is already becoming.
-        Not alone, not entirely together—somewhere in between.<br /><br />
-        You don’t need to know how to knit. <br />
-        You don’t need to understand what happens. <br />
-        Just begin, and notice what meets you.<br /><br />
+        information:`<p>
+          This piece began among stories shared in motion—knitting beside older generations in Serbia, where hands moved as much as voices. Some stitches carried memory, others simply held the moment. What stayed was the feeling of something passed on, not in words, but in gestures that returned. <br /><br />
+          Now, this act continues. <br />
+          Four pairs of connected needles rest before you. As you move them, lights respond—each rhythm shaping a brightness, each pause held in glow. Your touch joins what is already becoming.
+          Not alone, not entirely together—somewhere in between.<br /><br />
+          You don’t need to know how to knit. <br />
+          You don’t need to understand what happens. <br />
+          Just begin, and notice what meets you.<br /><br />
+          This work brings traces from an earlier participatory process—Resonant Memories—created in collaboration with Nuno Correia and Yulia Sion during a European Digital Deal residency, supported by the Creative Europe Culture programme. From those beginnings, the piece took its own path. It continued to evolve during a residency at Cittadellarte – Fondazione Pistoletto (UNIDEE), where gestures took on structure, and touch became a way of asking. <br /><br />
+          I move with this piece as it moves with others—holding the frame, shaping the interaction, and listening for what emerges through the hands. <br /><br />
+        </p>
 
-        This work brings traces from an earlier participatory process—Resonant Memories—created in collaboration with Nuno Correia and Yulia Sion during a European Digital Deal residency, supported by the Creative Europe Culture programme. From those beginnings, the piece took its own path. It continued to evolve during a residency at Cittadellarte – Fondazione Pistoletto (UNIDEE), where gestures took on structure, and touch became a way of asking. <br /><br />
+        <h3 class="font-bold">Guidelines:</h3>
+        <ul class="list-disc pl-6">
+          <li>Pick a question from the centre. Let it stay with you.</li>
+          <li>Touch the needles. Follow what changes.</li>
+          <li>Stay as long as you like.</li>
+          <li>If you want, write or record a reflection. Or just carry it with you.</li>
+        </ul>
+        <br />
 
-        I move with this piece as it moves with others—holding the frame, shaping the interaction, and listening for what emerges through the hands. <br /><br />
-
-         <ul> 
-        <h3 class="font-bold" >Guidelines:</h3> 
-          <li class="list-disc">Pick a question from the centre. Let it stay with you.<li/>
-          <li class="list-disc">Touch the needles. Follow what changes.<li/>
-          <li class="list-disc">Stay as long as you like.<li/> 
-          <li class="list-disc">If you want, write or record a reflection. Or just carry it with you.<li/>
-        <ul/><br />
-        <p class="font-bold" >What do you notice </p>
-        <p class="font-bold" >when your gesture meets another’s?</p>
-        <p class="font-bold" >When light answers your rhythm? </p>
-        <p class="font-bold" >What stays in the space </p>
-        <p class="font-bold" >between your hands and theirs?</p>
+        <p class="font-bold">What do you notice</p>
+        <p class="font-bold">when your gesture meets another’s?</p>
+        <p class="font-bold">When light answers your rhythm?</p>
+        <p class="font-bold">What stays in the space</p>
+        <p class="font-bold">between your hands and theirs?</p>
         `,
         gallery: [{imageUrl: "/projects/textile/sensing-connections/galery-sensing-connections3.webp"},{imageUrl: "/projects/textile/sensing-connections/galery-sensing-connections4.webp"}, {imageUrl: "/projects/textile/sensing-connections/galery-sensing-connections.webp"},{imageUrl: "/projects/textile/sensing-connections/galery-sensing-connections2.webp"}, {imageUrl: "/projects/textile/sensing-connections/galery-sensing-connections5.webp"},{imageUrl: "/projects/textile/sensing-connections/galery-sensing-connections6.webp"},{imageUrl: "/projects/textile/sensing-connections/galery-sensing-connections7.webp"},{imageUrl: "/projects/textile/sensing-connections/galery-sensing-connections8.webp"}],
         otherimfortmation: `
