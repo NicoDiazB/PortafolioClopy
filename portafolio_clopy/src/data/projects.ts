@@ -249,7 +249,7 @@ export const projects: Project[] =[
         slug: "clayplay",
         title: 'ClayPlay',
         subTittle:"User-Centred Design",
-        banner: {url:'/projects/human-computer-interaction/clayplay/banner-clayplay.webp', subtitle:"edited by @succo_julian"},
+        banner: {url:'/projects/human-computer-interaction/clayplay/banner-clayplay.webp', subtitle:"Final production"},
         cover: "/projects/human-computer-interaction/clayplay/cover-clayplay.webp",
         introduction: `A social and User-Centred Design project was a collaborative effort with Merimetsa Keskus and the Estonian Academy of Arts (EKA), focusing on developing creative solutions with people with special needs. <br /> Initially, the plan was to co-create directly with the participants, but the COVID-19 pandemic required the project to shift to a practitioner-led proposal. The guiding philosophy of this project was <strong>  “Nobody is perfect. It is what makes us unique and beautiful” </strong> which informed the inclusive and empowering design approach.`,
         information: ` <strong class="text-2xl">My Role and Responsibilities</strong> <br /> <br />
