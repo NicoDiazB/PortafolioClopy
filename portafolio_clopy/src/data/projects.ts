@@ -27,7 +27,10 @@ export const projects: Project[] =[
           I move with this piece as it moves with others—holding the frame, shaping the interaction, and listening for what emerges through the hands. <br /><br />
         </p>
 
-        <h3 class="font-bold">Guidelines:</h3>
+       
+        `,
+        gallery: [{imageUrl: "/projects/textile/sensing-connections/galery-sensing-connections3.webp"},{imageUrl: "/projects/textile/sensing-connections/galery-sensing-connections4.webp"}, {imageUrl: "/projects/textile/sensing-connections/galery-sensing-connections.webp"},{imageUrl: "/projects/textile/sensing-connections/galery-sensing-connections2.webp"}, {imageUrl: "/projects/textile/sensing-connections/galery-sensing-connections5.webp"},{imageUrl: "/projects/textile/sensing-connections/galery-sensing-connections6.webp"},{imageUrl: "/projects/textile/sensing-connections/galery-sensing-connections7.webp"},{imageUrl: "/projects/textile/sensing-connections/galery-sensing-connections8.webp"}],
+        otherimfortmation: ` <h3 class="font-bold">Guidelines:</h3>
         <ul class="list-disc pl-6">
           <li>Pick a question from the centre. Let it stay with you.</li>
           <li>Touch the needles. Follow what changes.</li>
@@ -41,9 +44,6 @@ export const projects: Project[] =[
         <p class="font-bold">When light answers your rhythm?</p>
         <p class="font-bold">What stays in the space</p>
         <p class="font-bold">between your hands and theirs?</p>
-        `,
-        gallery: [{imageUrl: "/projects/textile/sensing-connections/galery-sensing-connections3.webp"},{imageUrl: "/projects/textile/sensing-connections/galery-sensing-connections4.webp"}, {imageUrl: "/projects/textile/sensing-connections/galery-sensing-connections.webp"},{imageUrl: "/projects/textile/sensing-connections/galery-sensing-connections2.webp"}, {imageUrl: "/projects/textile/sensing-connections/galery-sensing-connections5.webp"},{imageUrl: "/projects/textile/sensing-connections/galery-sensing-connections6.webp"},{imageUrl: "/projects/textile/sensing-connections/galery-sensing-connections7.webp"},{imageUrl: "/projects/textile/sensing-connections/galery-sensing-connections8.webp"}],
-        otherimfortmation: `
        `,
         
         categories: [ "hci","textiles"],
