@@ -1,8 +1,5 @@
 import { FormContactProps } from "@/interfaces";
 
-
-
-
     
 
 export const sendData = async (formData: FormContactProps) =>{
