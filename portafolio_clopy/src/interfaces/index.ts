@@ -31,11 +31,11 @@ export interface Project{
   id: string
   date: string
   slug: string
-  title: string
+  title?: string
   subTittle?: string
   banner: Banner
   cover?: string
-  introduction: string
+  introduction?: string
   information?: string
   imageInformation?: string
   video?: string

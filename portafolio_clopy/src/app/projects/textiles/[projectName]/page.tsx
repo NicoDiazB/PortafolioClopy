@@ -1,5 +1,6 @@
 import GalleryModal from '@/components/GalleryModal';
 import { projects } from '@/data/projects'
+import { getTranslations } from 'next-intl/server';
 import Link from 'next/link';
 import { notFound } from 'next/navigation'
 
@@ -11,29 +12,42 @@ export default async function ProjectDetailPage ({ params }: { params: Promise<{
   
     if (!project) return notFound();
 
+  const t = await getTranslations("Projects");
+
   
     return (
       <article className="flex flex-col pt-40  px-8 md:max-w-[1000px] mx-auto">
         <div className='mb-4'>
 
         <Link href="/projects/textiles" className=" font-bold underline text-lg underline-offset-4 decoration-[2px]  hover:text-[#4B70A6] mb-6 ">
-            ← − −  Back to Textiles Projects
+           {t("gobackTextile")}
         </Link>
         </div>
         <section className='flex flex-col items-center '>
-        <h1 className="text-4xl font-bold ">{project.title}</h1>
-        <h3 className='text-xl text-gray-700 mb-4'>{project.subTittle}</h3>
+        <h1 className="text-4xl font-bold ">{t(`${project.slug}.title`)}</h1>
+        <h3 className='text-xl text-gray-700 mb-4'>{t(`${project.slug}.subTitle`)}</h3>
         <div>
-        <img src={project.banner.url} alt={project.title} className=" max-h-[800px] rounded-xl" />
-        <p className='text-lg text-center mb-6 text-gray-700'>{project.banner.subtitle}</p>
+          <img src={project.banner.url} alt={t(`${project.slug}.title`)} className=" max-h-[800px] rounded-xl mb-4" />
+          {project.banner.subtitle && (
+            <p className='text-base md:text-lg text-center mb-6 text-gray-700'>
+              {project.banner.subtitle}
+            </p>
+          )}
         </div>
-        <p className="mb-6 md:text-xl leading-tight text-pretty" dangerouslySetInnerHTML={{ __html: project.introduction }}/>
+
+        <div 
+          className='mb-6 md:text-xl leading-tight text-pretty' 
+          dangerouslySetInnerHTML={{ __html: t.raw(`${project.slug}.introduction`) ?? "" }}
+        />
       
 
         {/* render de imagen */}
         {project.imageInformation && (
           <div className="mb-6 w-full max-w-3xl ">
-            <img loading='lazy' className='rounded-xl' src={`${project.imageInformation}`} alt={`${project.title}`} />
+            <img loading='lazy' 
+            className='rounded-xl' 
+            src={`${project.imageInformation}`} 
+            alt={t(`${project.slug}.title`)} />
           </div>
         )}
         {/* redner de video */}
@@ -46,23 +60,50 @@ export default async function ProjectDetailPage ({ params }: { params: Promise<{
               allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
               
             ></iframe>
-            <p className='text-center text-lg'>For a more immersive experience, check out the video!</p>
+           <p className='text-center text-lg'>{t("videoNote")}</p>
           </div>
         )}
-        <p className='mb-6 md:text-xl text-pretty leading-tight'dangerouslySetInnerHTML={{ __html: project.information? project.information: "" }} />
+
+        <div 
+          className='mb-6 md:text-xl leading-tight text-pretty' 
+          dangerouslySetInnerHTML={{ __html: t.raw(`${project.slug}.information`) ?? "" }}
+        />
+
          {/* gallery component */}
       {project.gallery && project.gallery.length > 0 && (
         <GalleryModal gallery={project.gallery} />
       )}
+
+      {project.lastBanner && project.lastBanner.length > 0 && (
+          <div className='flex w-full justify-center items-center md:justify-evenly flex-col md:flex-row '>
+            {project.lastBanner.map((banner, index) => (
+              <figure key={index} className='flex '>
+                <img
+                  src={banner}
+                  alt={t(`${project.slug}.title`)}
+                  className={
+                    project.lastBanner && project.lastBanner.length > 1
+                      ? "rounded-xl max-w-[200px] "
+                      : "rounded-xl w-full"
+                  }
+                />
+              </figure>
+            ))}
+          </div>
+        )}
+
       {/* otra infromacion */}
-       <p className='mb-6 text-xl text-pretty'dangerouslySetInnerHTML={{ __html: project.otherimfortmation? project.otherimfortmation: "" }} />
+      <div 
+          className='mb-6 md:text-xl leading-tight text-pretty' 
+          dangerouslySetInnerHTML={{ __html: t.raw(`${project.slug}.otherInformation`) ?? "" }}
+        />
        
         {/* boton para subir el scroll */}
        
         </section>
         <section>
             {/* aqui va a haber cards de los otros proyectos */}
-            <h2 className="text-2xl font-bold mb-4">Other Projects</h2>
+            <h2 className="text-2xl font-bold mb-4">{t("otherProjects")}</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 w-full place-items-center lg:grid-cols-3 gap-6">
               {projects.filter(p => p.slug !== projectName).slice(0, 3).map(p => (
                 <Link key={p.id} href={`/projects/${p.categories[0]}/${p.slug}`} className=" relative w-full max-w-xs h-80 rounded-lg overflow-hidden group cursor-pointer shadow-md">
