@@ -1,13 +1,17 @@
 import { ProjectsSection } from '@/components/ProjectsSection'
 import { projects } from '@/data/projects'
+import { getTranslations } from 'next-intl/server'
 import React from 'react'
 
 
 
- const ProjectsHci:React.FC = () => {
+ const ProjectsHci:React.FC = async () => {
+
+  const t = await getTranslations("ProjectHCI")
+  
   return (
     <div className='flex flex-col items-center '>
-        <ProjectsSection sectionTitle='HUMAN-COMPUTER INTERACTION' sectionDescription='I have experience with participatory Design approach and Generative Design Research. My collaborative social practices help me explore new ideas. With expertise in design and crafts, my passion for textiles keeps my creative flame alive and fuels my ability to interweave technology and creativity.' projects={projects} type='hci'/>
+        <ProjectsSection sectionTitle={t("title")} sectionDescription={t("description")} projects={projects} type='hci'/>
     </div>
   )
 }

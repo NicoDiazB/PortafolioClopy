@@ -2,12 +2,15 @@
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
 import { usePathname } from 'next/navigation'
+import LanguageSwitcher from './LenguageSwitcher'
+import { useTranslations } from 'next-intl'
 
 export const Navbar = () => {
   const pathname = usePathname()
   const [isOpen, setIsOpen] = useState(false)
   const [prevScrollPos, setPrevScrollPos] = useState(0)
   const [visible, setVisible] = useState(true)
+
 
   useEffect(() => {
     const handleScroll = () => {
@@ -26,20 +29,24 @@ export const Navbar = () => {
 
   const linkClasses = (href: string) =>
     `${isActive(href) ? 'text-[#d86c49] font-bold border-b-2 border-dashed' : 'font-bold'} w-fit hover:text-[#4B70A6]  transition-all duration-150 flex items-center justify-center leading-none`
+  const t = useTranslations("Navbar")
+
 
   return (
     pathname === "/" ? null : (
       <nav className={`backdrop-blur-lg fixed flex items-center w-full px-8 bg-opacity-90 z-50 md:h-24 md:px-24 transition-transform duration-300 ${visible ? 'translate-y-0' : '-translate-y-full'}`}>
       <div className="w-full items-center">
         <div className="flex items-center h-16 justify-between">
-          <div className="hidden md:flex items-center gap-12 md:text-2xl ">
-            <Link href="/" className={linkClasses('/')}>HOME</Link>
-            <Link href="/projects/hci" className={linkClasses('/projects/hci')}>HCI PROJECTS</Link>
-            <Link href="/projects/textiles" className={linkClasses('/projects/textiles')}>TEXTILE PROJECTS</Link>
-            <Link href="/contact-me" className={linkClasses('/contact-me')}>CONTACT</Link>
+          <div className="hidden md:flex md:text-center items-center gap-12 md:text-2xl ">
+            <Link href="/" className={linkClasses('/')}>{t("home")}</Link>
+            <Link href="/projects/hci" className={linkClasses('/projects/hci')}>{t("projectshci")}</Link>
+            <Link href="/projects/textiles" className={linkClasses('/projects/textiles')}>{t("projectstextile")}</Link>
+            <Link href="/contact-me" className={linkClasses('/contact-me')}>{t("contact")}</Link>
             <a href='https://docs.google.com/document/d/149Ehni8C9ZHilrNiPKCl9Q41MMyBbDRIrnHz4oZMqFw/edit?tab=t.0' target='_blank' className="font-bold hover:text-[#4B70A6] pt-1 px-2 transition-all duration-150 flex items-center justify-center leading-none">
-              CV
+              {t("cv")}
             </a>
+            <LanguageSwitcher />
+
           </div>
 
           <button
@@ -54,13 +61,14 @@ export const Navbar = () => {
         {isOpen && (
           <div className="md:hidden pb-4">
             <div className="flex flex-col space-y-2 text-xl">
-              <Link href="/" className={linkClasses('/')}>HOME</Link>
-              <Link href="/projects/hci" className={linkClasses('/projects/hci')}>HCI PROJECTS</Link>
-              <Link href="/projects/textiles" className={linkClasses('/projects/textiles')}>TEXTILE PROJECTS</Link>
-              <Link href="/contact-me" className={linkClasses('/contact-me')}>CONTACT</Link>
+              <Link href="/" className={linkClasses('/')}>{t("home")}</Link>
+              <Link href="/projects/hci" className={linkClasses('/projects/hci')}>{t("projectshci")}</Link>
+              <Link href="/projects/textiles" className={linkClasses('/projects/textiles')}>{t("projectstextile")}</Link>
+              <Link href="/contact-me" className={linkClasses('/contact-me')}>{t("contact")}</Link>
               <a href='https://docs.google.com/document/d/149Ehni8C9ZHilrNiPKCl9Q41MMyBbDRIrnHz4oZMqFw/edit?tab=t.0' target='_blank' className="font-bold">
-                CV
+                {t("cv")}
               </a>
+              <LanguageSwitcher />
             </div>
           </div>
         )}

@@ -2,6 +2,7 @@
 import React, { useState } from 'react'
 import InputLabel from './InputLabel'
 import { sendData } from '@/helpers/fetch';
+import { useTranslations } from 'next-intl';
 
 export const FormContact: React.FC = () => {
      const [formData, setFormData] = useState({
@@ -17,6 +18,8 @@ export const FormContact: React.FC = () => {
     message: '',
     privacyPolicy: '',
   });
+    const t = useTranslations("form")
+
 
     const validate = () => {
     const newErrors = {
@@ -25,25 +28,26 @@ export const FormContact: React.FC = () => {
         message: '',
         privacyPolicy: '',
     };
-
-      if (!formData.name.trim()) newErrors.name = 'Name is required';
-      if (!formData.email.trim()) newErrors.email = 'Email is required';
-      else if (!/\S+@\S+\.\S+/.test(formData.email)) newErrors.email = 'Invalid email';
-      if (!formData.message.trim()) newErrors.message = 'Message is required';
-      if (!formData.privacyPolicy) newErrors.privacyPolicy = 'You must accept the privacy policy';
-
-      setErrors(newErrors);
-
-      // Devuelve true si no hay errores
-      return Object.values(newErrors).every((err) => !err);
-    };
+    
+    
+    if (!formData.name.trim()) newErrors.name = t('errors.nameRequired');
+    if (!formData.email.trim()) newErrors.email = t('errors.emailRequired');
+    else if (!/\S+@\S+\.\S+/.test(formData.email)) newErrors.email = t('errors.emailInvalid');
+    if (!formData.message.trim()) newErrors.message = t('errors.messageRequired');
+    if (!formData.privacyPolicy) newErrors.privacyPolicy = t('errors.privacyPolicyRequired');
+    
+    setErrors(newErrors);
+    
+    // Devuelve true si no hay errores
+    return Object.values(newErrors).every((err) => !err);
+  };
 
     const handleSubmit = async (e: React.FormEvent) => {
       e.preventDefault();
       if (validate()) {
         try {
           await sendData(formData);
-          alert("Formulario enviado exitosamente");
+          alert(t("alerts.success"));
           setFormData({
             name: "",
             email: "",
@@ -51,7 +55,7 @@ export const FormContact: React.FC = () => {
             privacyPolicy: false,
           });
         } catch (error) {
-          alert("Ocurrió un error al enviar el formulario");
+          alert(t("alerts.error"));
           console.error(error);
         }
       }
@@ -76,10 +80,10 @@ export const FormContact: React.FC = () => {
 
   return (
     <form className='flex flex-col' onSubmit={handleSubmit}>
-       <InputLabel  labelData="Name"
+       <InputLabel  labelData={t('labels.name')}
                 name="name"
                 idInput="name"
-                placeholder="Name"
+                placeholder={t('placeholders.name')}
                 type="text"
                 value={formData.name}
                 onChange={handleChange}
@@ -91,10 +95,10 @@ export const FormContact: React.FC = () => {
                     </span>
                 )}
             </div>
-       <InputLabel  labelData="Email"
+       <InputLabel  labelData={t('labels.email')}
                 name="email"
                 idInput="email"
-                placeholder="jhondow@mail.com"
+                placeholder={t('placeholders.email')}
                 type="email"
                 value={formData.email}
                 onChange={handleChange}
@@ -106,10 +110,10 @@ export const FormContact: React.FC = () => {
                     </span>
                 )}
             </div>
-       <InputLabel  labelData="Message"
+       <InputLabel  labelData={t('labels.message')}
                 name="message"
                 idInput="message"
-                placeholder="Type your message"
+                placeholder={t('placeholders.message')}
                 type="text"
                 value={formData.message}
                 onChange={handleChange}
@@ -131,7 +135,7 @@ export const FormContact: React.FC = () => {
           
              />
             <label htmlFor="privacyPolicy" className="text-sm">
-                I accept the privacy policy
+               {t('labels.privacyPolicy')}
             </label>
       </div>
         <div className='w-full'>
@@ -148,7 +152,7 @@ export const FormContact: React.FC = () => {
         hover:bg-[#d86c49] hover:text-white hover:outline-[#FFFEFB]
         transition-all cursor-pointer mt-4
         
-      `}>Send</button>
+      `}>{t("button.send")}</button>
     </form>
   )
 }

@@ -1,0 +1,225 @@
+{
+  "Home": {
+    "links": {
+      "contact": "¿Curioso? Hablemos",
+      "cv": "CV"
+    },
+    "intro": {
+      "title": "Hola, soy Clopy",
+      "description": "Soy una investigadora de diseño multidisciplinaria y artista. Trabajo con fibras, historias y métodos participativos para explorar y dar sentido a las necesidades sociales y comunitarias. La colaboración y el diálogo están en el corazón de mi proceso, interpretándolos como formas de comprender y tejer conexiones entre personas, lugares e ideas para contribuir a un cambio positivo. ¡Mira mi trabajo abajo!"
+    },
+    "projects": {
+      "hci": "PROYECTOS HCI",
+      "textile": "PROYECTOS TEXTILES"
+    },
+    "sections": {
+      "exhibitions": "Exposiciones",
+      "publications": "Publicaciones"
+    }
+  },
+
+  "Navbar": {
+    "home": "INICIO",
+    "projectshci": "PROYECTOS HCI",
+    "projectstextile": "PROYECTOS TEXTILES",
+    "contact": "CONTACTO",
+    "cv": "HV"
+  },
+
+  "Footer": {
+    "name": "Clopy Diaz Reyes",
+    "description": "Artista textil y diseñadora participativa. Trabajo con la memoria, las relaciones y las prácticas táctiles",
+    "website": "clopy.co",
+    "contactEmail": "Correo de contacto",
+    "location": "Con base dondequiera que las manos estén creando",
+    "copyright": "Copyleft Claudia Diaz Reyes, 2025",
+    "licenseDescription": "Este trabajo está hecho para ser compartido, transformado y transmitido. Por favor acredita cuando lo uses, y mantén el hilo abierto para otros.",
+    "licenseLink": "Licenciado bajo CC BY-SA 4.0"
+  },
+
+  "form": {
+    "labels": {
+      "name": "Nombre",
+      "email": "Correo electrónico",
+      "message": "Mensaje",
+      "privacyPolicy": "Acepto la política de privacidad"
+    },
+    "placeholders": {
+      "name": "Nombre",
+      "email": "juanperez@mail.com",
+      "message": "Escribe tu mensaje"
+    },
+    "errors": {
+      "nameRequired": "El nombre es obligatorio",
+      "emailRequired": "El correo electrónico es obligatorio",
+      "emailInvalid": "Correo electrónico inválido",
+      "messageRequired": "El mensaje es obligatorio",
+      "privacyPolicyRequired": "Debes aceptar la política de privacidad"
+    },
+    "button": {
+      "send": "Enviar"
+    },
+    "alerts": {
+      "success": "Formulario enviado con éxito",
+      "error": "Ocurrió un error al enviar el formulario"
+    }
+  },
+
+  "ContactMe": {
+    "title": "Contáctame",
+    "description": "Siempre estoy abierta a conversar sobre nuevos proyectos, ideas creativas u oportunidades para ser parte de tu visión."
+  },
+
+  "Exhibition": {
+    "title": "Exposiciones",
+    "items": [
+      "<strong> Exposición anual de la Asociación de Artistas Textiles de Estonia. </strong> </br > Eesti Tekstiilikunstnike Liidu aastanäitus “Eluoluline”. Dzeltenās bērnības maģiskajā vietā - En el lugar mágico de la infancia soleada (del letón). Por Zane Shumeiko y Claudia Diaz Reyes, presenta siete piezas textiles con una mezcla sensorial entre técnicas digitales y analógicas de los autores.  </br >  [2.12.2022 - 7.01.2023. Tartu - Estonia].",
+      " <strong> “Perforeeritud igatsus” / Punching Longing </strong> - ARS Showroom #039  </br >  Punching Longing es una exploración emocional del anhelo, que traduce recuerdos en tejido a través de la música. Inspirado en el contexto colombiano y en personas desaparecidas, el proyecto entrelaza experiencias personales con memorias ajenas, buscando consuelo en el acto de recordar. Seis piezas tejidas narran historias de alegría desde distintas perspectivas. </br >  Por Claudia Diaz Reyes  </br >  [28.05 – 22.06.2022, Tallinn, Estonia]",
+
+      " <strong> Second Chance — World Design Capital Valencia </strong>  </br >  Blanda es tensión. Tradición y tecnología se entrelazan; lo cotidiano busca convertirse en objeto especial. Un accesorio cercano a la joyería propone una nueva mirada sobre el tejido de punto. El proceso viajó entre materiales y escalas a través del tejido. </br >  Por Claudia Diaz Reyes  </br > [9.05 – 19.05.2022, Valencia, España]",
+
+      "<strong> Disainöö 2021 — Semana del Diseño de Tallin </strong>  </br >  Without measuring distances presentó piezas tejidas e interactivas como parte del proyecto de investigación Sensorial Design, que explora los vínculos entre el cuerpo, los sentidos y la tecnología.  </br >  [Septiembre 2021, Tallinn, Estonia]"
+    ],
+    "linkLabel": "Enlace"
+  },
+
+
+  "Publications": {
+    "title": "Publicaciones",
+    "items": [
+      "Neves, I. R., Diaz Reyes, C., Pachi, I., Demir, A. D., & Kuusk, K. (2021). Intercambio creativo a través de la responsabilidad conjunta: diseñando performances en equipos multidisciplinarios en contextos educativos. <em>Research in Arts and Education</em>, 2021(1), 72–101. <a class='underline text-[#4B70A6]' href='https://doi.org/10.54916/rae.119319' target='_blank'>https://doi.org/10.54916/rae.119319</a>",
+
+      "Sion, Y., Diaz Reyes, C., Lamas, D., & Mokhalled, M. (2023, February). Vibmory — Mapeo de recuerdos episódicos a patrones vibrotáctiles. <em>En Proceedings of the Seventeenth International Conference on Tangible, Embedded, and Embodied Interaction</em> (pp. 1-12). <a class='underline text-[#4B70A6]' href='https://doi.org/10.1145/3569009.3572747' target='_blank'>https://doi.org/10.1145/3569009.3572747</a>",
+
+      "Campos, I., Fuchs, D., Repo, P., Jager, W., Klöckner, C., Wang, S., Lamas, D., Cots, F., Barchiesi, E., Löfström, E., Peniche, D., Sion, Y., Buth, V., Limão, J., Oliveira, S., Diaz, C. R., & Živčič, L. (2024).¿Qué papel pueden desempeñar los Democracy Labs en la co-creación de innovaciones democráticas para la sostenibilidad? <em>Socio-Ecological Practice Research</em>. <a class='underline text-[#4B70A6]' href='https://doi.org/10.1007/s42532-024-00197-7' target='_blank'>https://doi.org/10.1007/s42532-024-00197-7</a>",
+
+      "Diaz Reyes, C. & Vračarević, S. (2025, 3–6 de septiembre). <em>Sensing Connections.</em> Presentación en el panel abierto con intervención Co-razonar, 4S Annual Meeting (Society for Social Studies of Science), Seattle, WA, Estados Unidos."
+    ]
+  },
+
+  "ProjectDetail": {
+    "back": "← − −  Volver a Proyectos HCI",
+    "videoNote": "Para una experiencia más inmersiva, ¡mira el video!",
+    "otherProjects": "Otros Proyectos"
+  },
+
+  "ProjectHCI": {
+    "title": "HUMAN-COMPUTER INTERACTION",
+    "description": "Tengo experiencia con el enfoque de Diseño Participativo y la Investigación de Diseño Generativo. Mis prácticas sociales colaborativas me ayudan a explorar nuevas ideas. Con experiencia en diseño y artesanía, mi pasión por los textiles mantiene viva mi llama creativa y alimenta mi capacidad para entrelazar tecnología y creatividad."
+    
+  },
+
+  
+  "ProjectTextile": {
+    "title": "TEXTILES",
+    "description": "Explora mis proyectos artisticos!"
+    
+  },
+
+  "Projects": {
+    "goback": "← − −  Volver a Proyectos HCI",
+    "gobackTextile": "← − −  Volver a Proyectos Textiles",
+    "videoNote": "Para una experiencia más inmersiva, ¡mira el video!",
+    "otherProjects": "Otros Proyectos",
+    "sensing-connections": {
+      "title": "Sensing Connections",
+      "subTitle": "An interactive textile installation by Claudia Diaz Reyes & Slobodan Vračarević",
+      "introduction": "¿Dónde comienza un hilo y hacia dónde va? <br /> <br />Esta pieza explora el textil como un hilo de conexión: gestos que se transmiten de mano en mano, movimientos que se extienden más allá de sí mismos. Las puntadas se repiten, se enlazan, se enrollan como ecos: llevan memoria, relación y presencia a través del tiempo y el espacio. Cada inicio, cada aguja que atraviesa, recuerda lo que vino antes y lo entrelaza con el presente. <br /> <br />Una bolsa amarilla bordada en rojo, una lección de infancia, el pajarito que atrapó mis primeras puntadas: huellas que persisten, reactivadas por el tacto. El textil trae trazos: guarda historias, saberes y gestos íntimos que viajan entre generaciones.",
+       "information": "Esta propuesta invita a participar de una pieza textil interactiva pensada para tejer. La pieza se ilumina al tejerla, revelando el ritmo del hacer. Manos en acción, hilos que se cruzan: la conversación aparece con la misma naturalidad que las puntadas. A través de la práctica compartida y la reflexión, nos preguntamos cómo el oficio teje vínculos, cómo se mueven juntos los cuerpos y las herramientas, y cómo lo que se siente también se comprende. Puntada a puntada, de mano en mano, lo que fue continúa. <br /> <br /> Esta pieza nació en el marco del proyecto participativo Resonant Memories, que involucró a 45 participantes de generaciones mayores en Serbia, y luego se desarrolló como proyecto independiente. Resonant Memories fue creado en colaboración con Nuno Correia y Yulia Sion, quienes forman parte del proyecto original. Así, esta pieza fue concebida parcialmente dentro del programa de residencias <strong> European Digital Deal </strong> en el Centre for the Promotion of Science, con el apoyo del programa Creative Europe Culture de la Unión Europea. Posteriormente, la idea y el prototipo se consolidaron durante una residencia artística en Cittadellarte – Fondazione Pistoletto, como parte del programa de residencias <strong> UNIDEE.</strong> ",
+       
+      "otherInformation": "<ul class='list-disc pl-10 md:pl-12'> <li> <strong>Autorxs: </strong> Claudia Díaz Reyes y Slobodan Vračarević</li> <li><strong>Detalles de la residencia</strong></li> <li> <strong>Lugar:</strong>Biella, Italia <br /><strong>Duración:</strong>abril – mayo 2025 <br /><strong>Equipo:</strong>Trabajo colaborativo con participantes y apoyo técnico de Slobodan Vračarević<br /><strong>Financiamiento:</strong>Autogestionado<br /><strong>Objetivo:</strong>Corazona</li> <br />"
+    },
+  
+    "resonant-memories": {
+      "title": "Resonant Memories",
+      "subTitle": "Artista Textil en Residencia",
+      "introduction": "Contribuí al proyecto Resonant Memories como parte de su fase inicial de investigación — pasando tiempo con generaciones mayores en Serbia, escuchando historias, aprendiendo a través de gestos compartidos y explorando cómo las prácticas táctiles pueden contener memoria y presencia. El proyecto, parte de la <a href='https://ars.electronica.art/eudigitaldeal/en/' target='_blank' class='hover:text-[#4B70A6] font-bold underline'>iniciativa Digital Deal</a>, apoyado por el programa Cultura de Europa Creativa y organizado por el <a href='https://ars.electronica.art/eudigitaldeal/en/residencies/resonant-memories-by-yulia-sion-nuno-n-correia-clopy-diaz-reyes/' target='_blank' class='hover:text-[#4B70A6] font-bold underline'>Centro para la Promoción de la Ciencia</a> en Belgrado, en colaboración con Ars Electronica.<br /><br /> Mi participación se centró en la dimensión participativa del trabajo, incluyendo la facilitación de cuatro talleres basados en textiles con más de 30 participantes. Aunque estuve profundamente involucrado en estas primeras etapas, nuestros caminos eventualmente se separaron debido a cambios internos dentro del equipo. Aun así, la experiencia sembró las semillas de un cuerpo de trabajo independiente — uno que continúa creciendo a través del tacto, el ritmo y la creación relacional.",
+      "information": "",
+      "otherInformation": ""
+  },
+
+  "dzeltenas-bernibas-magiskaja-vieta": {
+    "title": "Dzeltenās bērnības maģiskajā vietā",
+    "subTitle": "En el lugar mágico de una infancia amarilla",
+    "introduction": "En el lugar mágico de una infancia amarilla es una obra colaborativa que entrelaza migración, memoria e identidad a través del textil. Partiendo de recuerdos personales de la infancia, el proyecto explora cómo el recorrido vital y cultural se imprime en las formas de hacer y en los materiales que elegimos. ",
+    "information": "La obra combina técnicas tradicionales y digitales—bordado libre a máquina, tejido, impresión 3D y prensado térmico—para crear una serie de piezas que encarnan una conversación visual y sensorial entre lo analógico y lo digital. Cada experimento fue una oportunidad para abrazar lo inesperado, generando un lenguaje compartido desde la diferencia y el cruce de experiencias.",
+    "otherInformation": "La serie resultante, compuesta por siete piezas textiles, se exhibió en la muestra Eluoluline, organizada por la Asociación de Artistas Textiles de Estonia (ETAL) en Tartu, en diciembre de 2022."
+  },
+
+  "degenerando-oficios": {
+    "title": "Degenerando Oficios",
+    "subTitle": "",
+    "introduction": "Este proyecto nació con una visión clara y audaz: cuestionar la masculinidad tradicional a través del tejido. En Cali, Colombia, reunimos a un grupo de hombres para formar un círculo de tejido que, más allá de la técnica, se convirtió en un espacio de exploración creativa, vínculos significativos y transformación personal.",
+    "information": "Como coordinadora, facilité los encuentros y acompañé el proceso del grupo, promoviendo un ambiente donde los participantes pudieron desafiar normas sociales, compartir historias, descubrir talentos ocultos y fortalecer un sentido genuino de pertenencia. Entre risas, hilos y conversaciones, se fue tejiendo también una comunidad.<br /><br /> El impacto del proyecto trascendió el espacio del taller: uno de los procesos individuales se convirtió en obra artística y fue exhibido en una muestra de maestría en Alemania, mientras que otro testimonio fue publicado en una revista local, despertando interés y diálogo en torno al proyecto.<br /><br /> <strong> Degenerando Oficios </strong> demostró el potencial del tejido como herramienta de transformación individual y colectiva. Al desafiar estereotipos y celebrar la diversidad, tejimos no solo piezas, sino experiencias profundamente humanas.",
+    "otherInformation": "Facilitado por Claudia Díaz Reyes y en colaboración con Emmanuel Cabrera. 2018"
+  },
+
+  "startup-estonia": {
+    "title": "Startup Estonia",
+    "subTitle": "Mejorando la página 'Why Estonia' en el sitio web de Startup Estonia",
+    "introduction": "Este proyecto fue una colaboración entre la Universidad de Tallin y Startup Estonia, con el objetivo de rediseñar la sección “Why Estonia” del sitio web institucional a partir de una comprensión profunda de las necesidades de sus usuarias y usuarios, especialmente emprendedores locales y extranjeros del sector tecnológico.",
+    "information": "Desde mi rol, impulsé una cultura de trabajo colaborativo basada en los principios de la Comunicación No Violenta (CNV), priorizando la escucha activa, la empatía y la expresión auténtica. Esta aproximación fue clave para fortalecer el trabajo en equipo, gestionar tensiones de manera constructiva y avanzar con claridad en las diferentes fases del proyecto. <br /><br /> También lideré aspectos funadamentales del proceso, entre ellos: <br /><br /> <ul class='list-disc pl-10 md:pl-12'> <li> <strong> Evaluación de accesibilidad </strong> , garantizando que el rediseño cumpliera con estándares inclusivos;</li> <li> <strong> Desarrollo del protocolo de entrevistas </strong>, orientado a identificar motivaciones y expectativas de potenciales fundadores;  </li>  <li> <strong> Creación de perfiles de usuario (personas) </strong> , facilitando tanto su construcción como la recolección de insumos a través de entrevistas (como entrevistadora y tomadora de notas).</li> </ul> <br /> <br /> El resultado fue una propuesta centrada en las personas, que buscó aumentar la relevancia y atractivo del sitio desde una perspectiva de valor para el usuario. Gracias a este enfoque, logramos articular una narrativa más cercana para quienes consideran Estonia como un destino para emprender.",
+    "otherInformation": "Facilitated by Claudia Diaz Reyes and Emmanuel Cabrera’ collaboration. 2018"
+    },
+
+    "incite-dem": {
+      "title": "INCITE-DEM",
+      "subTitle": "Inclusive Citizenship in a World in Transformation: Co-Designing for Democracy",
+      "introduction": "<strong class='md:text-2xl'>Ciudadanía inclusiva en un mundo en transformación: Co-diseñando para la democracia</strong>",
+      "information": "<button class='w-fit cursor-pointer bg-[#E2DFCF] text-black rounded-xl py-2 px-3 font-bold outline-2 outline-dashed outline-offset-[-4px] outline-[#4B70A6] active:scale-95 active:shadow-[inset_0_0_8px_rgba(0,0,0,0.40)] hover:bg-[#d86c49] hover:text-white hover:outline-[#FFFEFB] transition-all '><a href='https://incite-dem.eu/' target='_blank' class='font-bold underline'>Project Website</a></button> <br /><br /> INCITE-DEM es un proyecto europeo en curso que busca contribuir de manera significativa al futuro de la democracia en Europa. Combina investigación social cualitativa y cuantitativa, modelado basado en agentes, pensamiento de diseño y métodos analíticos avanzados para fortalecer la participación ciudadana.<br /><br /> <button class='w-fit bg-[#E2DFCF] text-black rounded-xl py-2 px-3 font-bold outline-2 outline-dashed outline-offset-[-4px] outline-[#4B70A6] active:scale-95 active:shadow-[inset_0_0_8px_rgba(0,0,0,0.40)] hover:bg-[#d86c49] hover:text-white hover:outline-[#FFFEFB] transition-all duration-150'><a href='https://drive.google.com/file/d/1-DV_idYF-zYSxzFjxeXT55KFJ4xuuIWf/view' target='_blank' class='font-bold underline'>Democracy Labs Protocol</a></button> <br /><br />Desde mi rol como parte del equipo de investigación en la Universidad de Tallin (TLÜ), trabajé junto a colegas de diversos países europeos en el desarrollo metodológico de los Democracy Labs: talleres de diseño participativo pensados para generar espacios de reflexión colectiva. Nuestra labor se centró en diseñar un protocolo que integrara herramientas sensibles al contexto, capaces de preparar y acompañar a personas con diversos trasfondos, identidades y realidades nacionales.<br /><br /> Mi aporte se enfocó especialmente en la etapa de sensibilización, explorando métodos para recoger experiencias previas, generar confianza y activar formas de colaboración significativas. Esta fase buscó situar a las y los participantes como expertas de su propia vivencia, abriendo paso a procesos creativos y democráticos más inclusivos. <br /><br />",
+      "otherInformation": ""
+    },
+
+    "punching-longing": {
+      "title": "Tocando Fibras",
+      "subTitle": "Proyecto de tesis de Maestría en Artes, tutoras: Annika Toots y Eva-Liisa Kriis",
+      "introduction": "<strong>Resumen del proyecto</strong> <br /> Tocando Fibras es una investigación artística que aborda el anhelo desde el cruce entre música, memoria y textil. Tomando como punto de partida la pregunta “¿Qué recuerda un familiar de una persona dada por desaparecida?”, el proyecto se sitúa en el contexto del conflicto interno colombiano, tejiendo un recorrido sensible que busca honrar lo que persiste en medio de la ausencia.",
+      "information": "A través del uso de tarjetas perforadas como herramienta de traducción entre música y tejido, se desarrolló un sistema experimental que convierte canciones en patrones textiles y viceversa. Este proceso técnico y poético permite construir recuerdos que pueden ser escuchados y tocados, encontrando metáforas en los materiales, los colores y la acción de tejer.<br /><br /> ",
+      "otherInformation": "Seis piezas textiles fueron tejidas a partir de canciones elegidas por voluntarios, entrelazando relatos personales con la propia historia de la autora. El proyecto crea un espacio de escucha y cuidado, desde donde es posible encontrar consuelo en el acto de rememorar, reconociendo que incluso en el duelo hay espacio para la alegría."
+    },
+
+    "vibmory": {
+      "title": "Vibmory",
+      "subTitle": "",
+      "introduction": "<strong> Vibmory: Touching Memories </strong>  Este proyecto explora la materialización de recuerdos episódicos a través de vibraciones y textiles. Fue desarrollado en colaboración con Yulia Sion durante la residencia artística y científica <strong>STARTS.EE</strong>, organizada por el grupo de Interacción Humano-Computador (HCI) de la Universidad de Tallin y <strong>STARTS.EU.</strong>",
+      "information": "La propuesta parte de la pregunta: ¿podemos revivir un recuerdo más allá del pensamiento? A través de patrones de vibración y técnicas textiles, Vibmory busca traducir experiencias pasadas en estímulos físicos, permitiendo acceder a ellas desde el cuerpo. La pieza invita a repensar el recuerdo como una experiencia tangible, íntima y sensorial, que contribuye a la construcción de la identidad. <br /><br /> Este trabajo explora el potencial del textil como medio de evocación y reactivación, destacando posibilidades innovadoras en la intersección entre tecnología, percepción y recuerdo.",
+      "otherInformation": ""
+    },
+
+    "absent-echoes": {
+      "title": "Absent Echoes",
+      "subTitle": "Instalación colaborativa | Vabaduse Väljak, Tallin | Julio 2021",
+      "introduction": "<strong>Absent Echoes</strong> es una instalación pública desarrollada colectivamente en respuesta al paro nacional colombiano de 2021. Surgió como un gesto urgente de visibilización frente a las vidas perdidas o dadas por desaparecidas durante las protestas: personas cuyas historias corrían el riesgo de quedar silenciadas. Más que centrarse únicamente en la pérdida, la obra propuso un espacio de memoria que invoca conexión, continuidad y cuidado.",
+      "information": "Mi aporte se centró en la creación de los elementos tangibles y textiles: un lenguaje material capaz de sostener el peso emocional de la memoria colectiva, al tiempo que se mantenía accesible y abierto a otras personas. Los textiles permitieron traducir el duelo en presencia y abrir una invitación a vincularse de forma simbólica y corporal con la instalación. <br /><br /> <strong>El material como memoria</strong> <br /> El corazón de la obra fue un gesto simple: invitar a escribir a mano los nombres de quienes habían sido asesinados o desaparecidos. Estos nombres colgaban de hilos individuales que, en conjunto, formaban una red anclada a una mesa central. El uso del hilo no fue decorativo, sino intencionado: una manifestación material del cuidado, el vínculo y el acto colectivo de recordar. <br />En el centro de la mesa, una canasta de mimbre con semillas ofrecía un símbolo de vida y renovación. El mensaje: “Una vida arrebatada, una vida salvada”, recordando que la memoria también puede ser terreno fértil para la acción, y que los gestos de duelo pueden cargar esperanza. <br /><br /> <strong>Una obra polifónica</strong> <br /> Aunque los hilos y los nombres le daban forma, la pieza nunca se redujo a un solo material o disciplina. Fue inherentemente polifónica: construida con voces, sonidos, idiomas y perspectivas diversas. Grabaciones sonoras mezclaban sonidos de las protestas colombianas con una misma frase —“Nos están matando / We are getting killed”— repetida en español, estonio, inglés y ruso. Esta superposición multilingüe reforzaba el sentido de solidaridad transnacional y volvía más difícil ignorar la violencia. <br /><br /> Instalada en la Plaza de la Libertad de Tallin, un lugar profundamente ligado a las luchas de independencia en Estonia, la pieza encontró un eco particular: recordando que la búsqueda de justicia no tiene fronteras, y que la memoria compartida puede despertar nuevas formas de empatía y conciencia. <br /><br /> <strong>Más allá de la plaza</strong> <br /> La instalación también se compartió como pieza audiovisual en línea, ampliando su alcance más allá de lo físico y permitiendo conectar con personas que no pudieron estar presentes, pero compartían su preocupación. <br /> <br /> <strong>La colaboración como fundamento</strong> Esta obra fue creada colectivamente. Fue posible gracias a una red de colaboradorxs que aportaron sus voces, edición, traducciones, presencia y escucha. Fue co-creada con Gabriel Solis, y contó con el apoyo de Kätlin Armei, Jaan Kadak, Sabina Triana, Juulia Mikson, Maria Rakitina, Carlos Lesmes, Daniel, Jose Aldemar Muñoz y otrxs que decidieron permanecer en el anonimato. <br /><br /> Este encuentro colectivo dio lugar a un espacio donde materiales, voces y gestos se entrelazaron: no solo para recordar lo perdido, sino también para imaginar lo que aún puede cultivarse.",
+      "otherInformation": ""
+    },
+
+    "power-a": {
+      "title": "Power-A For Gourmet",
+      "subTitle": "¿Y si no comiéramos para vivir, sino solo por placer?",
+      "introduction": "Proyecto especulativo desarrollado en la Academia de Artes de Estonia y presentado en el Bio-Design Challenge 2020. La propuesta explora el potencial de las algas del mar Báltico como fuente alternativa de nutrición, en un futuro donde la alimentación diaria deja de ser una necesidad biológica para convertirse en una experiencia opcional y sensorial.",
+      "information": "Mi contribución se centró en la investigación aplicada de las propiedades simbióticas de líquenes —relación entre hongo y alga— como punto de partida para imaginar una forma de nutrición transdérmica. A partir de ello, diseñamos un sistema conceptual basado en un parche corporal que integra algas vivas, capaz de liberar nutrientes a través de la piel. El formato se propuso como joya contemporánea, conectando cuerpo, tecnología y entorno desde una perspectiva crítica. <br /><br /> La propuesta se desarrolló de forma completamente digital debido a las restricciones sanitarias, combinando análisis biológico, diseño de futuro y pensamiento ecosistémico. Power-A for Gourmet reflexiona sobre el rol del cuerpo como soporte de vida más allá del consumo y abre preguntas sobre el lugar de los alimentos en los sistemas contemporáneos. <br /><br /> Este proyecto fue realizado en colaboración con Yufang Hu y Yekaterina Suharenko, como parte del curso dirigido por la profesora Kärt Ojavee.",
+      "otherInformation": ""
+    },
+
+  
+    "clayplay": {
+      "title": "ClayPlay",
+      "subTitle": "Diseño social con personas con necesidades especiales",
+      "introduction": "Este proyecto nació como una colaboración entre Merimetsa Keskus y la Academia de Artes de Estonia (EKA), con la intención de desarrollar propuestas creativas en conjunto con personas con necesidades especiales. La idea inicial era co-crear directamente con ellas, pero la pandemia cambió el rumbo: el trabajo se transformó en una propuesta elaborada desde la práctica profesional, aunque sin perder de vista a quienes estaba dirigida. <br /><br /> Nos guiamos por una premisa simple y poderosa: <strong >  “Nadie es perfecto. Eso es lo que nos hace únicos y hermosos.” </strong >",
+
+      "information": "<strong class='text-2xl'>¿Qué buscaba el proyecto?</strong><br /><br /> <ul class='list-disc pl-10 md:pl-12'><li><strong>Técnica:</strong> encontrar un método práctico y adaptable.</li><li><strong>Identidad:</strong> permitir que cada persona pudiera expresarse a su manera.</li><li><strong>Productividad:</strong> que el proceso fuera claro, repetible y accesible.</li><li><strong>Identidad:</strong> permitir que cada persona pudiera expresarse a su manera.</li><li><strong>Atractivo visual:</strong> que los objetos pudieran gustar a un público más amplio, sin dejar de ser personales.</li></ul><br />",
+
+      "otherInformation": "<strong class='text-2xl'>¿Qué propusimos?</strong><br /><br /> Una serie de moldes de colada en barro personalizados, que cada participante pudiera intervenir con piezas y colores propios. Así, cada objeto se volvía único, pero fácil de reproducir.<br />Trabajamos con arcilla y objetos personales como punto de partida. La técnica permitía autonomía, al tiempo que mantenía el vínculo con la historia de cada quien. <strong class='text-2xl'>¿Qué hice?</strong> <br /><br /> <ul class='list-discpl-10 md:pl-12'><li> Visité Merimetsa Keskus para conocer el espacio y entender el contexto.</li>  <li>Observé, escuché, tomé nota.</li>  <li>Luego, desarrollé una propuesta concreta que combinaba diseño accesible con expresión individual, respetando el ritmo y capacidades de cada participante.</li>   </ul><br /> <br />  <strong class='text-2xl'>Resultado</strong> <br /><br /> Una propuesta que traduce la diversidad en forma: objetos de arcilla personalizables, pensados para ser creados con las manos y con el alma. <br /> Aunque el contacto directo se interrumpió por la pandemia, el diseño quedó abierto para retomarse y adaptarse en contextos similares."
+    },
+
+    "dream-weavers-workshop": {
+      "title": "Dream Weavers' workshop",
+      "subTitle": "Diseño de espacios creativos junto a niñas y niños",
+      "introduction": "Este proyecto comenzó como un taller presencial para co-diseñar un espacio creativo con niñas y niños, pero, como a tantas cosas en ese momento, la pandemia le cambió el rumbo. A lo largo de 16 semanas, lo transformé en un proceso en línea que terminó en una propuesta concreta para el lugar. <br /><br /> Trabajé primero de forma presencial y luego a distancia, manteniendo el contacto con los niños y facilitando espacios de escucha sobre lo que deseaban para su entorno. Como parte de una clase, fue un proyecto individual que lideré de principio a fin, desde la investigación inicial hasta la presentación del resultado.",
+      "information": "",
+      "otherInformation": "<strong>¿Cómo fue el proceso?</strong><br /><br /> <ol class='list-decimal pl-10 md:pl-12'> <li>  Empezamos reconociendo el lugar: lo recorrimos para entender el contexto físico y social.</li> <li> Luego, conversamos con niñas y niños que asistían a Vivistop, conociendo sus intereses y dinámicas.</li> <li> Finalmente, preguntamos qué les gustaría hacer o tener en ese espacio, abriendo la puerta a imaginar juntas y juntos.</li></ol>  <br /><br /> The final work was presented via Zoom, ensuring the project remained connected and collaborative.<br /><br /> <strong>¿Qué resultó?</strong> <br /><br /> Una propuesta para transformar el espacio en un lugar lúdico, creativo y estimulante: una mezcla entre una caja de música y un praxinoscopio, pensada para invitar a la exploración y el juego. <br /> El proyecto se presentó por Zoom, cerrando el ciclo con una entrega que, a pesar de la distancia, mantuvo el espíritu colaborativo y cercano con las infancias involucradas."
+    }
+  }
+
+}
