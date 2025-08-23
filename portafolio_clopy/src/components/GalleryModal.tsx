@@ -49,7 +49,7 @@ export default function GalleryModal({ gallery }: Props) {
           <div className=" p-4 md:p-6 rounded  max-w-full w-[90%] md:max-w-2xl">
             <Btn
               onClick={closeModal}
-              className="absolute top-5 right-5 cursor-pointer px-4 "
+              className="absolute top-5 right-5 cursor-pointer px-4 z-20 "
             >
               X
             </Btn>

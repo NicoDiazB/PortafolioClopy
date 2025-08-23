@@ -79,7 +79,7 @@ export const projects: Project[] =[
         slug: "incite-dem",
         banner: {url:'/projects/human-computer-interaction/incite-dem/banner-incitedem.webp'},
         cover: "/projects/human-computer-interaction/incite-dem/cover-incitedem.webp",
-        gallery: [{imageUrl: "/projects/human-computer-interaction/incite-dem/galery-incitedem.webp", title: "", description: ""},{imageUrl: "/projects/human-computer-interaction/incite-dem/galery-incitedem2.webp", title: "", description: ""},{imageUrl: "/projects/human-computer-interaction/incite-dem/galery-incitedem3.webp", title: "", description: ""},{imageUrl: "/projects/human-computer-interaction/incite-dem/galery-incitedem4.webp", title: "", description: ""},{imageUrl: "/projects/human-computer-interaction/incite-dem/galery-incitedem5.webp", title: "", description: ""},{imageUrl: "/projects/human-computer-interaction/incite-dem/galery-incitedem6.webp", title: "", description: ""},{imageUrl: "/projects/human-computer-interaction/incite-dem/galery-incitedem7.webp", title: "", description: ""},{imageUrl: "/projects/human-computer-interaction/incite-dem/galery-incitedem8.webp", title: "", description: ""}],
+        gallery: [{imageUrl: "/projects/human-computer-interaction/incite-dem/galery-incitedem.webp", title: "", description: ""},{imageUrl: "/projects/human-computer-interaction/incite-dem/galery-incitedem2.webp", title: "", description: ""},{imageUrl: "/projects/human-computer-interaction/incite-dem/galery-incitedem3.webp", title: "", description: ""},{imageUrl: "/projects/human-computer-interaction/incite-dem/galery-incitedem4.webp", title: "", description: ""},{imageUrl: "/projects/human-computer-interaction/incite-dem/galery-incitedem6.webp", title: "", description: ""},{imageUrl: "/projects/human-computer-interaction/incite-dem/galery-incitedem7.webp", title: "", description: ""},{imageUrl: "/projects/human-computer-interaction/incite-dem/galery-incitedem8.webp", title: "", description: ""}],
         categories: ["hci"],
       },
       {
@@ -149,5 +149,23 @@ export const projects: Project[] =[
         categories: ["hci"],
       },
 
+      {
+        id: '13',
+        date: "2018",
+        slug: "gayo",
+        banner: {url:'/projects/textile/gayo/banner-gayo.webp'},
+        cover: "/projects/textile/gayo/cover-gayo.webp",
+        gallery:[{imageUrl:"/projects/textile/gayo/galery-gayo.webp"}, {imageUrl:"/projects/textile/gayo/galery-gayo2.webp"},{imageUrl:"/projects/textile/gayo/galery-gayo3.webp"},{imageUrl:"/projects/textile/gayo/galery-gayo4.webp"},{imageUrl:"/projects/textile/gayo/galery-gayo5.webp"}],
+        categories: ["textiles"],
+      },
+      {
+        id: '12',
+        date: "2014",
+        slug: "congrejo",
+        banner: {url:'/projects/textile/cangrejo/banner-cangrejo.webp'},
+        cover: "/projects/textile/cangrejo/cover-cangrejo.webp",
+        gallery:[{imageUrl:"/projects/textile/cangrejo/galery-cangrejo.webp"}, {imageUrl:"/projects/textile/cangrejo/galery-cangrejo2.webp"},{imageUrl:"/projects/textile/cangrejo/galery-cangrejo3.webp"},{imageUrl:"/projects/textile/cangrejo/galery-cangrejo4.webp"},{imageUrl:"/projects/textile/cangrejo/galery-cangrejo5.webp"}, {imageUrl:"/projects/textile/cangrejo/galery-cangrejo6.webp"}],
+        categories: ["textiles"],
+      },
       
 ]

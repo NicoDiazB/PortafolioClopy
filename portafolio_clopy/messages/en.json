@@ -201,12 +201,30 @@
     },
 
     "dream-weavers-workshop": {
-  "title": "Dream Weavers' workshop",
-  "subTitle": "Designing with children.",
-  "introduction": "The Dream Weaver's Workshop project explored how to create a fun and creative space for kids. <br /><br /> Originally planned as an in-person activity, it shifted online due to COVID-19. Over 16 weeks, I led this project, working with children who attended Vivistop's creative space online and in person (when safe) to learn about their hopes and ideas for this space. This project focused on developing a proposal for a space initially intended to be conducted in person, but the process shifted to online to ensure safety and continuity. Over 16 weeks, I facilitated this solo project, working closely with children both in person and online to understand their needs and aspirations for the Vivistop space. <br /><br /> The outcome of this project was the mix of a praxinoscope and a music box, transforming the space into an entertaining yet creative environment. The final work was presented via Zoom, ensuring the project remained connected and collaborative.",
-  "information": "",
-  "otherInformation": "<strong>Project Procces</strong><br /><br /> <ol class='list-decimal pl-10 md:pl-12'> <li>Site Recognition and Contextual Understanding: As practitioners, we explored the location and walked around to understand the context and the environment. </li> <li>Engagement with Vivistop Children: We interacted with the children who attended Vivistop, learning about their activities and experiences.</li>  <li>Gathering Insights: We inquired about and listened to the children's preferences and ideas to understand what they would like to have or do in the space.</li> </ol><br /> The final work was presented via Zoom, ensuring the project remained connected and collaborative.<br /><br />"
+      "title": "Dream Weavers' workshop",
+      "subTitle": "Designing with children.",
+      "introduction": "The Dream Weaver's Workshop project explored how to create a fun and creative space for kids. <br /><br /> Originally planned as an in-person activity, it shifted online due to COVID-19. Over 16 weeks, I led this project, working with children who attended Vivistop's creative space online and in person (when safe) to learn about their hopes and ideas for this space. This project focused on developing a proposal for a space initially intended to be conducted in person, but the process shifted to online to ensure safety and continuity. Over 16 weeks, I facilitated this solo project, working closely with children both in person and online to understand their needs and aspirations for the Vivistop space. <br /><br /> The outcome of this project was the mix of a praxinoscope and a music box, transforming the space into an entertaining yet creative environment. The final work was presented via Zoom, ensuring the project remained connected and collaborative.",
+      "information": "",
+      "otherInformation": "<strong>Project Procces</strong><br /><br /> <ol class='list-decimal pl-10 md:pl-12'> <li>Site Recognition and Contextual Understanding: As practitioners, we explored the location and walked around to understand the context and the environment. </li> <li>Engagement with Vivistop Children: We interacted with the children who attended Vivistop, learning about their activities and experiences.</li>  <li>Gathering Insights: We inquired about and listened to the children's preferences and ideas to understand what they would like to have or do in the space.</li> </ol><br /> The final work was presented via Zoom, ensuring the project remained connected and collaborative.<br /><br />"
+    }, 
+
+    "gayo": {
+      "title": "Gayo.co",
+      "subTitle": "",
+      "introduction": "Gayo.co is a conscious design initiative created in collaboration with Emmanuel Cabrera, blending illustration, organic textile, and environmental awareness. The project features a line of T-shirts made from certified organic cotton, each printed with original designs that highlight endangered Colombian species. <br /> <br />By combining visual storytelling with urgent ecological messages, Gayo.co seeks to foster everyday connections with nature and encourage more responsible ways of living. The garments act as wearable reminders—sparking curiosity, dialogue, and action toward conservation.",
+      "information": "More than a clothing brand, Gayo.co is a platform for rethinking our relationship with the natural world through the lens of design.",
+      "otherInformation": ""
+    },
+    
+    "congrejo": {
+      "title": "Cangrejo",
+      "subTitle": "",
+      "introduction": "<strong> Cangrejo </strong> is a textile design project that reimagines children’s clothing through the lens of sustainability, material care, and freedom from gendered norms. Initially developed as part of a university research process, the graduation project was later transformed into a small-scale brand rooted in ethical practices and ecological responsibility. <br /><br /> The first collection offered playful, gender-neutral designs for children aged 2 to 4, featuring bold patterns silkscreened with non-toxic inks onto organic, certified Peruvian cotton. Every garment was conceived to support movement, curiosity, and comfort—essential aspects of early childhood exploration.",
+      "information": "At its core, Cangrejo challenges the conventions of the children's fashion industry by advocating for broader colour palettes, the use of natural fibres, and the rejection of rigid gender stereotypes. The project invites reflection on how materials shape experience from an early age—not only through aesthetics, but through values. <br /> <br /> While young children may not yet verbalise their beliefs, what surrounds them—including what they wear—affects how they relate to the world. Cangrejo offers a vision of childhood grounded in softness, awareness, and the possibility of more conscious beginnings.",
+      "otherInformation": ""
     }
+    
+
 
 
   }

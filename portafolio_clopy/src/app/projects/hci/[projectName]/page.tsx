@@ -11,7 +11,6 @@ export default async function ProjectDetailPage({ params }: { params: Promise<{ 
   if (!project) return notFound();
 
   const t = await getTranslations("Projects");
-  // console.log(t(`${project.slug}.title`));
   
 
   return (
