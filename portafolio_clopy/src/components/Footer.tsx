@@ -20,9 +20,9 @@ export const Footer = async () => {
       <div className='text-xs' >
         <p className="font-bold">{t("copyright")}</p>
         <p>{t("licenseDescription")}</p>
-        
         <a className=' hover:text-[#4B70A6]' href={"https://creativecommons.org/licenses/by-sa/4.0/"}>{t("licenseLink")}</a>
       </div>
+        <a className=' hover:text-[#4B70A6]' href='https://www.linkedin.com/in/nicolas-diaz-99944b232/'> {t("developedBy")}</a>
     </footer>
   )
 }

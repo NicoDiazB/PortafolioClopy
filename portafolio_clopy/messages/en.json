@@ -3,7 +3,8 @@
   "Home": {
     "links": {
       "contact": "Curious? Let’s talk",
-      "cv": "CV"
+      "cv": "CV",
+      "link": "https://docs.google.com/document/d/149Ehni8C9ZHilrNiPKCl9Q41MMyBbDRIrnHz4oZMqFw/edit?tab=t.0"
     },
     "intro": {
       "title": "Hi, I am Clopy",
@@ -24,7 +25,8 @@
     "projectshci": "HCI PROJECTS",
     "projectstextile": "TEXTILE PROJECTS",
     "contact": "CONTACT",
-    "cv": "CV"
+    "cv": "CV",
+    "link": "https://docs.google.com/document/d/149Ehni8C9ZHilrNiPKCl9Q41MMyBbDRIrnHz4oZMqFw/edit?tab=t.0"
   },
    "Footer": {
     "name": "Clopy Diaz Reyes",
@@ -34,7 +36,8 @@
     "location": "Based wherever hands are making",
     "copyright": "Copyleft Claudia Diaz Reyes, 2025",
     "licenseDescription": "This work is meant to be shared, transformed, and passed on. Please credit when you do, and keep the thread open for others.",
-    "licenseLink": "Licensed under CC BY-SA 4.0"
+    "licenseLink": "Licensed under CC BY-SA 4.0",
+    "developedBy": "Developed by Nicolas Diaz"
   },
 
   "form": {
@@ -111,6 +114,7 @@
     "gobackTextile": "← − −  Back to Textiles Projects ",
     "videoNote": "For a more immersive experience, check out the video!",
     "otherProjects": "Other Projects",
+
     "sensing-connections": {
       "title": "Sensing Connections",
       "subTitle": "An interactive textile installation by Claudia Diaz Reyes & Slobodan Vračarević",

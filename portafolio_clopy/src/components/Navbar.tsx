@@ -42,7 +42,7 @@ export const Navbar = () => {
             <Link href="/projects/hci" className={linkClasses('/projects/hci')}>{t("projectshci")}</Link>
             <Link href="/projects/textiles" className={linkClasses('/projects/textiles')}>{t("projectstextile")}</Link>
             <Link href="/contact-me" className={linkClasses('/contact-me')}>{t("contact")}</Link>
-            <a href='https://docs.google.com/document/d/149Ehni8C9ZHilrNiPKCl9Q41MMyBbDRIrnHz4oZMqFw/edit?tab=t.0' target='_blank' className="font-bold hover:text-[#4B70A6] pt-1 px-2 transition-all duration-150 flex items-center justify-center leading-none">
+            <a href={t("link")} target='_blank' className="font-bold hover:text-[#4B70A6] pt-1 px-2 transition-all duration-150 flex items-center justify-center leading-none">
               {t("cv")}
             </a>
             <LanguageSwitcher />
