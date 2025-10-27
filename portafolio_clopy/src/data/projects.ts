@@ -169,14 +169,5 @@ export const projects: Project[] =[
         categories: ["textiles"],
       },
 
-       {
-        id: '13',
-        date: "2024",
-        slug: "congrejo",
-        banner: {url:'/projects/textile/cangrejo/banner-cangrejo.webp'},
-        cover: "/projects/textile/cangrejo/cover-cangrejo.webp",
-        gallery:[{imageUrl:"/projects/textile/cangrejo/galery-cangrejo.webp"}, {imageUrl:"/projects/textile/cangrejo/galery-cangrejo2.webp"},{imageUrl:"/projects/textile/cangrejo/galery-cangrejo3.webp"},{imageUrl:"/projects/textile/cangrejo/galery-cangrejo4.webp"},{imageUrl:"/projects/textile/cangrejo/galery-cangrejo5.webp"}, {imageUrl:"/projects/textile/cangrejo/galery-cangrejo6.webp"}],
-        categories: ["textiles"],
-      },
   
 ]
