@@ -10,6 +10,7 @@ export const projects: Project[] =[
         date: "2025",
         slug: "sensing-connections",
         banner: { url: '/projects/textile/sensing-connections/cover-sensing-connections.webp' },
+        video:"https://www.youtube.com/embed/iTLl9ZLJ2CI?si=OWAjH1faWk8FtMYp",
         gallery: [
           { imageUrl: "/projects/textile/sensing-connections/galery-sensing-connections3.webp" },
           { imageUrl: "/projects/textile/sensing-connections/galery-sensing-connections4.webp" },
@@ -167,5 +168,6 @@ export const projects: Project[] =[
         gallery:[{imageUrl:"/projects/textile/cangrejo/galery-cangrejo.webp"}, {imageUrl:"/projects/textile/cangrejo/galery-cangrejo2.webp"},{imageUrl:"/projects/textile/cangrejo/galery-cangrejo3.webp"},{imageUrl:"/projects/textile/cangrejo/galery-cangrejo4.webp"},{imageUrl:"/projects/textile/cangrejo/galery-cangrejo5.webp"}, {imageUrl:"/projects/textile/cangrejo/galery-cangrejo6.webp"}],
         categories: ["textiles"],
       },
-      
+
+  
 ]

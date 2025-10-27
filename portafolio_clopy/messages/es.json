@@ -2,7 +2,8 @@
   "Home": {
     "links": {
       "contact": "¿Curioso? Hablemos",
-      "cv": "CV"
+      "cv": "CV",
+      "link": "https://docs.google.com/document/d/1yZHydtnHIILuGxTJFZalxLdZ8uFQLRNi_ZLZWqXDDQY/edit?usp=sharing"
     },
     "intro": {
       "title": "Hola, soy Clopy",
@@ -23,7 +24,8 @@
     "projectshci": "PROYECTOS HCI",
     "projectstextile": "PROYECTOS TEXTILES",
     "contact": "CONTACTO",
-    "cv": "HV"
+    "cv": "HV",
+    "link": "https://docs.google.com/document/d/1yZHydtnHIILuGxTJFZalxLdZ8uFQLRNi_ZLZWqXDDQY/edit?usp=sharing"
   },
 
   "Footer": {
@@ -34,7 +36,8 @@
     "location": "Con base dondequiera que las manos estén creando",
     "copyright": "Copyleft Claudia Diaz Reyes, 2025",
     "licenseDescription": "Este trabajo está hecho para ser compartido, transformado y transmitido. Por favor acredita cuando lo uses, y mantén el hilo abierto para otros.",
-    "licenseLink": "Licenciado bajo CC BY-SA 4.0"
+    "licenseLink": "Licenciado bajo CC BY-SA 4.0",
+    "developedBy": "Desarrollado por Nicolas Diaz"
   },
 
   "form": {

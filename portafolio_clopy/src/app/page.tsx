@@ -8,7 +8,7 @@ export default async function Home() {
     <main className="flex flex-col justify-center  items-center ">
       <section className="flex w-full justify-evenly  md:justify-end pt-4 md:gap-10 md:pr-6">
         <Link className="font-bold min-w-[60px] md:min-w-[80px] text-center  md:text-xl text-[#4B70A6] border-b-3 border-dashed hover:text-black" href={"/contact-me"}> {t("links.contact")}</Link>
-        <Link className="font-bold min-w-[60px] md:min-w-[80px] text-center  md:text-xl text-[#4B70A6] border-b-3 border-dashed hover:text-black" href={"/contact-me"}>{t("links.cv")}</Link>
+        <a target="_blank" className="font-bold min-w-[60px] md:min-w-[80px] text-center  md:text-xl text-[#4B70A6] border-b-3 border-dashed hover:text-black" href={t("links.link")}>{t("links.cv")}</a>
         <LanguageSwitcher/>
       </section>
      <section className="flex flex-col items-center md:max-w-[1000px] gap-4 mt-30  ">
